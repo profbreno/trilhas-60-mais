@@ -9,7 +9,6 @@ describe('Revisão intermediária da U01 — feedback e teclado', () => {
   it('mantém foco e região de feedback ao pedir revisão de um ajuste inadequado', async () => {
     const user = userEvent.setup()
     render(<MemoryRouter initialEntries={[getOfficialMissionPath(readingMission)]}><App /></MemoryRouter>)
-    await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
     await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
     const feedback = screen.getByRole('status')
     const sound = screen.getByRole('button', { name: 'Quero aumentar o som' })
@@ -33,7 +32,6 @@ describe('Revisão intermediária da U01 — feedback e teclado', () => {
   it('permite mudar o rádio por setas, preserva seu foco e exige reaplicar após desfazer', async () => {
     const user = userEvent.setup()
     render(<MemoryRouter initialEntries={[getOfficialMissionPath(readingMission)]}><App /></MemoryRouter>)
-    await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
     await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
     await user.click(screen.getByRole('button', { name: 'Quero melhorar a leitura do texto' }))
     screen.getByRole('radio', { name: 'Padrão' }).focus()

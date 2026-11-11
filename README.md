@@ -1,5 +1,7 @@
 # Trilhas 60+
 
+Estado vigente — redesign do participante (11/11/2026): home curta, navegação inferior **Início / Trilhas / Conquistas**, percurso completo em `/trilhas` e entrada única para M01/M02. **M01–M10 disponíveis; M11–M20 informativas**. Currículo, motor, eventos em memória e marca preservados. Lint, TypeScript, **331 testes** e build aprovados; inspeção visual mobile/desktop e zoom deste redesign bloqueada nesta sessão e ainda pendente. [Comparação antes/depois, decisões e limites](docs/AVALIACAO/REDESIGN-PARTICIPANTE-MVP.md). Versão `0.1.0-dev`, sem publicação ou persistência. Os relatos abaixo são históricos.
+
 Estado vigente após U05: **M01–M10 disponíveis**, M11–M20 informativas. M09 protege uma conta fictícia sem pedir credenciais; M10 edita um convite com minimização e público justificado. **323 testes aprovados**, lint, tipos e build sem erros. [Critérios, evidências e limites U05](docs/AVALIACAO/VERIFICACAO-U05.md). Versão 0.1.0-dev; execute npm run dev. Os relatos anteriores abaixo são históricos.
 
 Estado vigente após U04: **M01–M08 disponíveis**; M09–M20 informativas. Modalidade de investigação com fontes fictícias, justificativa, decisão e revisão. **290 testes aprovados**, lint, TypeScript e build sem erros. [Conferência pedagógica, verificações e limites](docs/AVALIACAO/VERIFICACAO-U04.md). Versão 0.1.0-dev, sem serviços externos ou persistência. Execute npm run dev; relatos seguintes são históricos.

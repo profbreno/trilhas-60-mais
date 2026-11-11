@@ -8,7 +8,6 @@ import { getOfficialMissionPath, navigationMission, readingMission } from '../da
 async function start(definition: typeof navigationMission | typeof readingMission) {
   const user = userEvent.setup()
   render(<MemoryRouter initialEntries={[getOfficialMissionPath(definition)]}><App /></MemoryRouter>)
-  await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
   await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
   return user
 }
@@ -17,10 +16,10 @@ describe('Refinamento UX-01 — apresentação sob demanda', () => {
   it('mantém uma navegação principal e somente a marca do cabeçalho acima do percurso', () => {
     render(<MemoryRouter><App /></MemoryRouter>)
     const nav = screen.getByRole('navigation', { name: 'Navegação principal' })
-    expect(within(nav).getAllByRole('link')).toHaveLength(1)
+    expect(within(nav).getAllByRole('link').map(link => link.textContent)).toEqual(['Início', 'Trilhas', 'Conquistas'])
     expect(screen.getByRole('banner').querySelectorAll('img')).toHaveLength(1)
     expect(screen.getByRole('main').querySelectorAll('img')).toHaveLength(0)
-    expect(screen.getAllByRole('link', { name: /M\d{2}.*(Disponível|Em desenvolvimento)/ })).toHaveLength(20)
+    expect(screen.queryAllByRole('link', { name: /M\d{2}.*(Disponível|Em desenvolvimento)/ })).toHaveLength(0)
   })
 
   it('abre as opções e preserva foco no ciclo de interrupção por teclado', async () => {

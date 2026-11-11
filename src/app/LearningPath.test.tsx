@@ -8,7 +8,7 @@ import { trails } from '../data/curriculum'
 import { getOfficialMissionPath, navigationMission, readingMission } from '../data/demoMissions'
 import { missionPath } from '../domain/curriculumPaths'
 
-const renderAt = (path = '/') => render(<MemoryRouter initialEntries={[path]}><App /></MemoryRouter>)
+const renderAt = (path = '/trilhas') => render(<MemoryRouter initialEntries={[path]}><App /></MemoryRouter>)
 
 describe('Percurso integrado', () => {
   it('apresenta as três trilhas, dez unidades e vinte nós em uma ordem linear', () => {
@@ -41,7 +41,7 @@ describe('Percurso integrado', () => {
     node.focus()
     await user.keyboard('{Enter}')
     expect(screen.getByRole('heading', { level: 1, name: definition.content.title })).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: 'Conhecer a atividade' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Começar a prática' })).toBeInTheDocument()
     expect(screen.getByRole('main')).toHaveFocus()
   })
 
@@ -50,7 +50,7 @@ describe('Percurso integrado', () => {
     renderAt()
     await user.click(screen.getByRole('link', { name: /M11.*Em desenvolvimento/ }))
     expect(screen.getByRole('heading', { name: 'Atividade em desenvolvimento' })).toBeInTheDocument()
-    expect(screen.queryByRole('button', { name: 'Conhecer a atividade' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: 'Começar a prática' })).not.toBeInTheDocument()
     await user.click(screen.getByRole('link', { name: 'Voltar ao percurso' }))
     expect(screen.getByRole('heading', { level: 3, name: /U06/ })).toHaveFocus()
   })
@@ -73,7 +73,6 @@ describe('Percurso integrado', () => {
   it.each([navigationMission, readingMission])('retorna de $id interrompida à U01 no percurso', async definition => {
     const user = userEvent.setup()
     renderAt(getOfficialMissionPath(definition))
-    await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
     await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
     await openPracticeOptions(user)
     await user.click(screen.getByRole('button', { name: 'Interromper a prática' }))
@@ -85,7 +84,6 @@ describe('Percurso integrado', () => {
   it('retorna após conclusão sem atribuir conquista ou conclusão aos nós', async () => {
     const user = userEvent.setup()
     renderAt(getOfficialMissionPath(navigationMission))
-    await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
     await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
     for (const name of ['Recados do bairro', 'Voltar à tela inicial da simulação', 'Calendário', 'Voltar à tela inicial da simulação', 'Recados do bairro', 'Voltar à tela inicial da simulação']) await user.click(screen.getByRole('button', { name }))
     expect(screen.getByRole('heading', { name: 'Prática concluída nesta demonstração' })).toBeInTheDocument()
@@ -96,7 +94,7 @@ describe('Percurso integrado', () => {
   })
 
   it('restaura região e foco ao abrir diretamente um hash de unidade', () => {
-    renderAt('/#percurso-u10')
+    renderAt('/trilhas#percurso-u10')
     expect(screen.getByRole('heading', { level: 3, name: /U10/ })).toHaveFocus()
   })
 })

@@ -12,7 +12,6 @@ const m02 = `${unit}/missoes/preparar-a-tela-para-ler-um-convite`
 function LocationProbe() { return <output data-testid="location">{useLocation().pathname}</output> }
 const renderAt = (path: string) => render(<MemoryRouter initialEntries={[path]}><App /><LocationProbe /></MemoryRouter>)
 const start = async (user: ReturnType<typeof userEvent.setup>) => {
-  await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
   await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
 }
 
@@ -26,7 +25,7 @@ describe('Execução oficial, sem URLs pedagógicas paralelas', () => {
 
   it('entra diretamente em M02 sem precisar concluir M01 e mantém os dezoito conteúdos sem execução', () => {
     renderAt(m02)
-    expect(screen.getByRole('button', { name: 'Conhecer a atividade' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Começar a prática' })).toBeInTheDocument()
     expect(screen.queryByText(/Conclua M01/)).not.toBeInTheDocument()
     expect(screen.queryByRole('progressbar')).not.toBeInTheDocument()
   })
@@ -34,7 +33,7 @@ describe('Execução oficial, sem URLs pedagógicas paralelas', () => {
   it('não oferece acessos paralelos de desenvolvimento na página inicial', () => {
     const { container } = renderAt('/')
     expect(container.querySelector('a[href^="/desenvolvimento"]')).not.toBeInTheDocument()
-    expect(screen.getByRole('link', { name: 'Experimentar as atividades da U01' })).toHaveAttribute('href', unit)
+    expect(screen.getByRole('link', { name: 'Continuar aprendendo' })).toHaveAttribute('href', m01)
   })
 })
 
@@ -86,8 +85,6 @@ describe('Controles de ciclo de vida acessíveis', () => {
     await start(user)
     for (let repeat = 0; repeat < 2; repeat++) {
       await user.click(screen.getByRole('button', { name: 'Voltar à etapa anterior' }))
-      expect(screen.getByRole('heading', { name: 'Como participar' })).toHaveFocus()
-      await user.click(screen.getByRole('button', { name: 'Voltar à etapa anterior' }))
       expect(screen.getByRole('heading', { name: 'O que vamos praticar' })).toHaveFocus()
       await start(user)
     }
@@ -104,6 +101,7 @@ describe('Controles de ciclo de vida acessíveis', () => {
     interrupt.focus()
     await user.keyboard('{Enter}')
     expect(screen.getByRole('heading', { name: 'Prática interrompida nesta página' })).toHaveFocus()
+    await user.click(screen.getByText('Outros caminhos', { selector: 'summary' }))
     await user.click(screen.getByRole('link', { name: 'Voltar à unidade' }))
     await user.click(screen.getByRole('link', { name: /Ver a micromissão\s*: Encontrar os caminhos da tela/ }))
     expect(screen.getByRole('heading', { name: 'O que vamos praticar' })).toBeInTheDocument()

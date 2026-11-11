@@ -33,7 +33,7 @@ async function finish(u: User, d: InformationDefinition) {
 }
 describe('U04 — investigação e decisão nas rotas oficiais', () => {
   it.each([investigationMission, responsibleSharingMission])('abre $id pelo percurso e retorna com foco U04', async d => {
-    const u = userEvent.setup(); render(<MemoryRouter><App /></MemoryRouter>)
+    const u = userEvent.setup(); render(<MemoryRouter initialEntries={['/trilhas']}><App /></MemoryRouter>)
     screen.getByRole('link', { name: new RegExp(`${d.id}.*Disponível`) }).focus(); await u.keyboard('{Enter}')
     expect(screen.getByRole('heading', { level: 1, name: d.content.title })).toBeInTheDocument()
     await u.click(screen.getByRole('link', { name: 'Voltar ao percurso da U04' }))

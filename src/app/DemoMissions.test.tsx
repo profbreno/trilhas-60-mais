@@ -14,7 +14,6 @@ const m02Link = /Ver a micromissão\s*: Preparar a tela para ler um convite/
 
 const renderMission = (id: string) => render(<MemoryRouter initialEntries={[officialPaths[id] ?? `/desenvolvimento/u01/${id}`]}><App /></MemoryRouter>)
 const start = async (user: ReturnType<typeof userEvent.setup>) => {
-  await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
   await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
 }
 const finishNavigation = async (user: ReturnType<typeof userEvent.setup>) => {
@@ -33,7 +32,9 @@ describe('Missões nas rotas oficiais', () => {
   it('permite encontrar a unidade pelo início e apresenta apenas M01 e M02', async () => {
     const user = userEvent.setup()
     render(<MemoryRouter><App /></MemoryRouter>)
-    await user.click(screen.getByRole('link', { name: 'Experimentar as atividades da U01' }))
+    await user.click(screen.getByRole('link', { name: 'Continuar aprendendo' }))
+    await user.click(screen.getByText('Outros caminhos', { selector: 'summary' }))
+    await user.click(screen.getByRole('link', { name: 'Voltar à unidade' }))
     expect(screen.getByRole('heading', { level: 1, name: 'Operação básica do celular' })).toBeInTheDocument()
     expect(screen.getByRole('link', { name: m01Link })).toHaveAttribute('href', officialPaths.m01)
     expect(screen.getByRole('link', { name: m02Link })).toHaveAttribute('href', officialPaths.m02)
@@ -94,10 +95,8 @@ describe('Fluxo funcional M01', () => {
     const help = () => screen.getByRole('button', { name: 'Ajuda nesta página' })
     await user.click(help())
     expect(screen.getByText(/Não é necessário usar controles físicos/)).toBeVisible()
-    await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
-    expect(help()).toHaveAttribute('aria-expanded', 'false')
-    await user.click(help())
-    expect(screen.getByText(/Não é necessário usar controles físicos/)).toBeVisible()
+    await user.click(screen.getByText('Como participar', { selector: 'summary' }))
+    expect(screen.getByText(/Depois, vamos visitar o Calendário/)).toBeVisible()
     await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
     await user.click(screen.getByRole('button', { name: 'Calendário' }))
     expect(screen.getByRole('heading', { name: 'Encontre os recados' })).toHaveFocus()
@@ -112,10 +111,12 @@ describe('Fluxo funcional M01', () => {
     await start(user)
     await finishNavigation(user)
     expect(completion()).toBeInTheDocument()
+    await user.click(screen.getByText('Outros caminhos', { selector: 'summary' }))
     await user.click(screen.getByRole('link', { name: 'Voltar à unidade' }))
     await user.click(screen.getByRole('link', { name: m01Link }))
     expect(screen.getByRole('heading', { name: 'O que vamos praticar' })).toBeInTheDocument()
     expect(screen.queryByRole('progressbar')).not.toBeInTheDocument()
+    await user.click(screen.getByText('Outros caminhos', { selector: 'summary' }))
     await user.click(screen.getByRole('link', { name: 'Voltar à unidade' }))
     await user.click(screen.getByRole('link', { name: m02Link }))
     expect(screen.getByRole('heading', { level: 1, name: 'Preparar a tela para ler um convite' })).toBeInTheDocument()
@@ -148,10 +149,11 @@ describe('Fluxo funcional M02', () => {
     expect(screen.getByText('2 de 3 objetivos praticados')).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: 'Salão de leitura do Centro Comunitário' }))
     expect(completion()).toHaveFocus()
+    await user.click(screen.getByText('Rever o convite e os ajustes', { selector: 'summary' }))
     await user.click(screen.getByRole('button', { name: 'Desfazer ajustes da prévia' }))
     expect(completion()).toBeInTheDocument()
     expect(screen.getByText('3 de 3 objetivos praticados')).toBeInTheDocument()
-    expect(preview).toHaveClass('invitation-preview--standard')
+    expect(screen.getByRole('region', { name: 'Convite fictício' })).toHaveClass('invitation-preview--standard')
   })
 
   it('oferece modo de leitura equivalente e desfazer antes da informação', async () => {
@@ -196,9 +198,8 @@ describe('Inspeção automatizada parcial das atividades', () => {
       expect(results.violations.map(({ id: rule }) => rule)).toEqual([])
     }
     await inspect()
-    await user.click(screen.getByRole('button', { name: 'Conhecer a atividade' }))
-    await inspect()
     await user.click(screen.getByRole('button', { name: 'Começar a prática' }))
+    await inspect()
     if (id === 'm01') await finishNavigation(user)
     else {
       await user.click(screen.getByRole('button', { name: 'Quero melhorar a leitura do texto' }))

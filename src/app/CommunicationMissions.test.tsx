@@ -30,7 +30,7 @@ const complete = () => screen.getByRole('heading', { name: 'Prática concluída 
 describe('U02 nas rotas oficiais', () => {
   it.each([messageMission, sharingMission])('abre $id diretamente do percurso e volta com foco na U02', async d => {
     const user = userEvent.setup()
-    render(<MemoryRouter><App /></MemoryRouter>)
+    render(<MemoryRouter initialEntries={['/trilhas']}><App /></MemoryRouter>)
     const node = screen.getByRole('link', { name: new RegExp(`${d.id}.*Disponível`) })
     expect(node).toHaveAttribute('href', getOfficialMissionPath(d))
     node.focus(); await user.keyboard('{Enter}')

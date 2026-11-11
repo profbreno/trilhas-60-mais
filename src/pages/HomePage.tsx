@@ -1,29 +1,37 @@
+import { ArrowRight, Play } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { trails } from '../data/curriculum'
-import { TrailCard } from '../components/CurriculumCards'
-import { LearningPath } from '../components/LearningPath'
-import { StatusMessage } from '../components/StatusMessage'
+import { getOfficialMissionPath, navigationMission } from '../data/demoMissions'
+import { TrailIcon } from '../components/TrailIcon'
 import { AccessibleButton } from '../components/AccessibleButton'
-import { demoUnit } from '../data/demoMissions'
 
 export function HomePage() {
-  return <>
-    <section className="path-intro container">
-      <h1>Seu percurso</h1>
-      <p>Escolha uma micromissão e pratique no seu tempo.</p>
-      <StatusMessage><strong>Você está em uma demonstração.</strong></StatusMessage>
+  return <div className="container participant-home">
+    <div className="home-welcome">
+      <p className="eyebrow">BEM-VINDO AO TRILHAS 60+</p>
+      <h1>Aprenda no seu tempo.</h1>
+      <p>Pequenas práticas para o seu dia a dia digital.</p>
+    </div>
+    <section className="continue-card" aria-labelledby="continuar-titulo">
+      <p className="eyebrow">UMA PRÁTICA PARA COMEÇAR · M01</p>
+      <h2 id="continuar-titulo">{navigationMission.content.title}</h2>
+      <p>Explore um celular fictício e pratique como encontrar e retomar um caminho.</p>
+      <AccessibleButton to={getOfficialMissionPath(navigationMission)}>Continuar aprendendo <Play size={21} aria-hidden="true" /></AccessibleButton>
+      <p className="continue-note">Sem limite de tempo. Ao sair ou recarregar, a prática recomeça.</p>
     </section>
-    <LearningPath />
-    <section className="container section-space" aria-labelledby="outras-formas">
-      <h2 id="outras-formas">Outras formas de conhecer o conteúdo</h2>
-      <p>Se preferir, consulte as páginas de apresentação das trilhas e unidades.</p>
-      <AccessibleButton to={demoUnit.path} variant="secondary">Experimentar as atividades da U01</AccessibleButton>
-      <div className="grid gap-6 lg:grid-cols-3 section-space">{trails.map(trail => <TrailCard key={trail.id} trail={trail} />)}</div>
+    <section className="home-trails" aria-labelledby="suas-trilhas">
+      <div className="section-heading"><h2 id="suas-trilhas">Três trilhas para explorar</h2><Link className="back-link" to="/trilhas">Ver percurso completo <ArrowRight size={20} aria-hidden="true" /></Link></div>
+      <div className="trail-summaries">{trails.map(trail => <article key={trail.id}>
+        <Link className="trail-summary" to={`/trilhas#percurso-${trail.id}`}>
+          <TrailIcon theme={trail.theme} />
+          <span><span className="eyebrow">TRILHA {trail.number}</span><strong>{trail.title}</strong><span>{trail.units.length} unidades · {trail.units.length * 2} micromissões</span></span>
+          <ArrowRight size={22} aria-hidden="true" />
+        </Link>
+      </article>)}</div>
     </section>
-    <section id="sobre" tabIndex={-1} className="container about section-space" aria-labelledby="sobre-titulo">
-      <p className="eyebrow">SOBRE O PROJETO</p><h2 id="sobre-titulo">Tecnologia que aproxima e amplia possibilidades</h2>
-      <p>O Trilhas 60+ é um protótipo educacional de uma pesquisa de doutorado em Educação. A proposta prevê 12 semanas de aprendizagem, com encontros presenciais e atividades digitais mediadas.</p>
-      <p>Os exemplos são fictícios. A acessibilidade e a experiência de uso ainda precisam ser avaliadas com pessoas idosas e tecnologias assistivas.</p>
-      <details><summary>Sobre esta demonstração</summary><p>Versão 0.1.0-dev. M01–M10 estão disponíveis. As demais atividades estão em desenvolvimento. Não há cadastro nem salvamento do progresso.</p></details>
-    </section>
-  </>
+    <details id="sobre" tabIndex={-1} className="home-about"><summary>Sobre esta demonstração</summary>
+      <p><strong>Você está em uma demonstração.</strong> Protótipo educacional de uma pesquisa de doutorado em Educação. Exemplos fictícios, sem cadastro, coleta ou salvamento de progresso.</p>
+      <p>São três trilhas, dez unidades e vinte micromissões. M01–M10 estão disponíveis; M11–M20 apresentam suas propostas. A experiência ainda precisa ser avaliada com pessoas idosas e tecnologias assistivas.</p>
+    </details>
+  </div>
 }

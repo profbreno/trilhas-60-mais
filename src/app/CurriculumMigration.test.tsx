@@ -22,16 +22,19 @@ describe('Migração curricular aprovada', () => {
     expect(screen.getByText(mission.scenario)).toBeInTheDocument()
     expect(screen.getByText(new RegExp(`${unit.id} · ${mission.id}`))).toBeInTheDocument()
     if (['M01', 'M02', 'M03', 'M04', 'M05', 'M06', 'M07', 'M08', 'M09', 'M10'].includes(mission.id)) {
-      expect(screen.getByRole('button', { name: 'Conhecer a atividade' })).toBeInTheDocument()
+      expect(screen.getByRole('button', { name: ['M01', 'M02'].includes(mission.id) ? 'Começar a prática' : 'Conhecer a atividade' })).toBeInTheDocument()
       expect(screen.queryByRole('heading', { name: 'Atividade em desenvolvimento' })).not.toBeInTheDocument()
     } else {
       expect(screen.getByRole('heading', { name: 'Atividade em desenvolvimento' })).toBeInTheDocument()
       expect(screen.queryByRole('button', { name: 'Conhecer a atividade' })).not.toBeInTheDocument()
     }
     expect(screen.queryByRole('progressbar')).not.toBeInTheDocument()
-    if (['M01', 'M02', 'M03', 'M04', 'M05', 'M06', 'M07', 'M08', 'M09', 'M10'].includes(mission.id)) await user.click(screen.getByText('Localização da missão', { selector: 'summary' }))
-    const breadcrumbs = screen.getByRole('navigation', { name: 'Você está aqui' })
-    expect(within(breadcrumbs).getByText(mission.title)).toHaveAttribute('aria-current', 'page')
+    if (['M03', 'M04', 'M05', 'M06', 'M07', 'M08', 'M09', 'M10'].includes(mission.id)) await user.click(screen.getByText('Localização da missão', { selector: 'summary' }))
+    if (!['M01', 'M02'].includes(mission.id)) {
+      const breadcrumbs = screen.getByRole('navigation', { name: 'Você está aqui' })
+      expect(within(breadcrumbs).getByText(mission.title)).toHaveAttribute('aria-current', 'page')
+    }
+    if (['M01', 'M02'].includes(mission.id)) await user.click(screen.getByText('Outros caminhos', { selector: 'summary' }))
     await user.click(screen.getByRole('link', { name: 'Voltar à unidade' }))
     expect(screen.getByRole('heading', { level: 1, name: unit.title })).toBeInTheDocument()
     await user.click(screen.getByRole('link', { name: 'Voltar à trilha' }))

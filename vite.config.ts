@@ -8,5 +8,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/test/setup.ts',
     css: false,
+    // Evita que as suítes jsdom concorram além da capacidade do ambiente local/CI.
+    maxWorkers: 2,
   },
 })

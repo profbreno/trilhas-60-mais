@@ -40,8 +40,8 @@ function PathSection({ trail }: { trail: Trail }) {
 function PathNavigation() {
   const first = trails.flatMap(trail => trail.units.flatMap(unit => unit.missions)).find(mission => getMissionDefinition(mission.id))
   return <nav className="path-navigation" aria-label="Atalhos do percurso">
-    {first && <Link className="button" to={`/#no-${first.id}`}>Ir à primeira missão disponível</Link>}
-    <details><summary>Escolher outra trilha</summary>{trails.map(trail => <Link key={trail.id} to={`/#percurso-${trail.id}`}><Compass size={22} aria-hidden="true" /><span>Trilha {trail.number}: {trail.title}</span></Link>)}</details>
+    {first && <Link className="button" to={`/trilhas#no-${first.id}`}>Ir à primeira missão disponível</Link>}
+    <details><summary>Escolher outra trilha</summary>{trails.map(trail => <Link key={trail.id} to={`/trilhas#percurso-${trail.id}`}><Compass size={22} aria-hidden="true" /><span>Trilha {trail.number}: {trail.title}</span></Link>)}</details>
   </nav>
 }
 
