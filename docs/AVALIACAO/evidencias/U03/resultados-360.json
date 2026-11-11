@@ -1,0 +1,403 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "zooms": [
+    {
+      "profile": "360",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 1,
+        "nativeResize": {
+          "innerWidth": 512,
+          "innerHeight": 900,
+          "outerWidth": 534,
+          "outerHeight": 998,
+          "dpr": 1,
+          "scale": 1,
+          "root": "18px",
+          "clientWidth": 497,
+          "scrollWidth": 497
+        },
+        "viewportEmulation": {
+          "width": 360,
+          "height": 900
+        }
+      },
+      "page": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      }
+    }
+  ],
+  "records": [
+    {
+      "profile": "360",
+      "state": "m05-consulta",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Monte sua busca",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m05-generica",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Compare os resultados",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m05-refinada",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Compare os resultados",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m05-colecao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Guarde para consultar novamente",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m05-recuperada",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m06-antiga",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Escolher este resultado",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 814.125,
+        "bottom": 874.59375,
+        "left": 37,
+        "right": 308
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m06-comparacao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Comparar resultados abertos",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 498.90625,
+        "bottom": 559.375,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m06-lembrete",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "SELECT",
+        "label": "Escolha um cartãoMural sem autoria identificadaCentro Comunitário Jardim — agenda fictícia",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 635.484375,
+        "bottom": 683.484375,
+        "left": 37,
+        "right": 308
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m06-recuperada",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 317.21875,
+        "bottom": 380.21875,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    }
+  ],
+  "journeys": [
+    {
+      "profile": "360",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M05 consulta ampla/refinamento, erro antigo, escolha, guardar e recuperar; M06 comparação, fonte/data, lembrete incompleto bloqueado, guardar, recuperar, repetir e retorno U03."
+    }
+  ],
+  "errors": [],
+  "protectedFiles": {
+    "src/data/curriculum.ts": "4b116065a7eb3ec2e4b71ebc5cd97bcce37a1aaf8ea64dbcf63b487062c41dfd",
+    "src/data/demoMissions.ts": "d9f055f7d87233c62ec681f9a90f60bff401e8c42a5bf2311ef67fc718b64b76",
+    "src/domain/missions/communication.test.ts": "976f1a393788c45519a118455dea6ae4cc4b9ad590c07db09067c4d70194e616",
+    "src/domain/missions/communication.ts": "14b505e195c8975ced170f2b83d34cb3820bd0342ea62f222a406885e6fb4805",
+    "src/domain/missions/execution.test.ts": "7ea75bc8475c176998a6ba27b28e410fca0459ad1985cae234faa404e301e0f6",
+    "src/domain/missions/execution.ts": "916124588bdd86c9054c9f7cf651b0b453adcbefbde65810c67c0be83e1e4587",
+    "src/domain/missions/navigation.ts": "af28da616477122175bb652c71a146ff85abee114cad5a1cfec04487b22abe97",
+    "src/domain/missions/reading.ts": "fb4f5009f345fcc6a2a1dd7d969168d6df8a5d4859cb5362389785e569c0b8fb",
+    "src/domain/missions/search.test.ts": "f883e22e524abea36d8063c60b4348b0af5a411b807b7c0e68037d9f499afb4d",
+    "src/domain/missions/search.ts": "16f625f31cd733132f4e831d469c6c7080e5815b6d05e5f6de8ca4d54a2fe42e",
+    "src/domain/missions/types.ts": "e317afd66cf0b7a9f8aad45c465781283ee34ab6f6cd7b034d1a2f5014c70e07",
+    "public/brand/logo-trilhas60-principal.png": "5a9505e993ca29ac31d42130b9aa2145227bdcfd43f2e2ab0d7b75e1493d7c44",
+    "public/brand/logo-trilhas60-transparente.png": "f6bbaf6e78ec5b03560a524761e58ac6a6f2377770c8e690af0a28d6fff836f4"
+  }
+}

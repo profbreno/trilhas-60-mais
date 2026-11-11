@@ -1,0 +1,1101 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "records": [
+    {
+      "name": "percurso-320-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "focus": "",
+        "outline": "rgb(32, 61, 64) none 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 269,
+            "height": 218.4375,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 269,
+            "height": 218.4375,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 269,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 269,
+            "height": 218.4375,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 269,
+            "height": 284.9375,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-320-u01",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "focus": "no-M01",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 269,
+            "height": 218.4375,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 269,
+            "height": 218.4375,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 269,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 269,
+            "height": 218.4375,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 269,
+            "height": 284.9375,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 269,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 269,
+            "height": 251.6875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 269,
+            "height": 258.203125,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-360-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 360,
+        "clientWidth": 345,
+        "scrollWidth": 345,
+        "focus": "",
+        "outline": "rgb(32, 61, 64) none 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-360-u01",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 360,
+        "clientWidth": 345,
+        "scrollWidth": 345,
+        "focus": "no-M01",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 309,
+            "height": 191.703125,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 309,
+            "height": 224.953125,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-768-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 768,
+        "clientWidth": 753,
+        "scrollWidth": 753,
+        "focus": "",
+        "outline": "rgb(32, 61, 64) none 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-768-u01",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 768,
+        "clientWidth": 753,
+        "scrollWidth": 753,
+        "focus": "no-M01",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 699,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-1280-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1265,
+        "scrollWidth": 1265,
+        "focus": "",
+        "outline": "rgb(32, 61, 64) none 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    },
+    {
+      "name": "percurso-1280-u01",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1265,
+        "scrollWidth": 1265,
+        "focus": "no-M01",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "nodes": [
+          {
+            "id": "no-M01",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela"
+          },
+          {
+            "id": "no-M02",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+          },
+          {
+            "id": "no-M03",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/preparar-uma-mensagem-para-o-grupo"
+          },
+          {
+            "id": "no-M04",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/comunicacao-digital/missoes/compartilhar-o-arquivo-certo-com-a-pessoa-certa"
+          },
+          {
+            "id": "no-M05",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/transformar-uma-duvida-em-busca"
+          },
+          {
+            "id": "no-M06",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/primeiros-passos/unidades/pesquisa-de-informacoes/missoes/encontrar-uma-atividade-no-bairro"
+          },
+          {
+            "id": "no-M07",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/investigar-de-onde-veio-a-noticia"
+          },
+          {
+            "id": "no-M08",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/desinformacao/missoes/decidir-antes-de-compartilhar"
+          },
+          {
+            "id": "no-M09",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/cuidar-da-senha-e-do-codigo-de-acesso"
+          },
+          {
+            "id": "no-M10",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/senhas-e-privacidade/missoes/escolher-o-que-pode-ser-compartilhado"
+          },
+          {
+            "id": "no-M11",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/interromper-um-pedido-suspeito"
+          },
+          {
+            "id": "no-M12",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/fraudes-digitais/missoes/conferir-um-pedido-de-pix-com-seguranca"
+          },
+          {
+            "id": "no-M13",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/examinar-um-endereco-antes-de-abrir"
+          },
+          {
+            "id": "no-M14",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/seguranca/unidades/links-maliciosos/missoes/sair-de-uma-mensagem-e-buscar-o-caminho-seguro"
+          },
+          {
+            "id": "no-M15",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/encontrar-a-informacao-de-um-servico-essencial"
+          },
+          {
+            "id": "no-M16",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/servicos-essenciais/missoes/planejar-um-atendimento-de-saude-simulado"
+          },
+          {
+            "id": "no-M17",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/escolher-um-aplicativo-para-uma-necessidade"
+          },
+          {
+            "id": "no-M18",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/aplicativos-e-permissoes/missoes/revisar-permissoes-em-uma-situacao-pratica"
+          },
+          {
+            "id": "no-M19",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/pedir-ajuda-sem-compartilhar-segredos"
+          },
+          {
+            "id": "no-M20",
+            "width": 760,
+            "height": 131.71875,
+            "href": "/trilhas/cidadania/unidades/ajuda-e-autonomia/missoes/construir-e-experimentar-um-plano-de-autonomia"
+          }
+        ]
+      }
+    }
+  ],
+  "keyboard": "M02 pausa e retorno, M01 conclusão e retorno, M03 proposta e retorno, em quatro larguras. Tab e Enter reais via CDP.",
+  "zoom200": "Não verificado: inspeção em viewport estreito não equivale a zoom real."
+}

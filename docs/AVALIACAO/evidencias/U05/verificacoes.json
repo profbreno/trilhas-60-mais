@@ -1,0 +1,361 @@
+{
+  "version": "0.1.0-dev",
+  "node": "v20.17.0",
+  "checks": {
+    "lint": "aprovado",
+    "typecheck": "aprovado",
+    "tests": {
+      "total": 323,
+      "files": 21,
+      "previous": 290,
+      "added": 33
+    },
+    "build": "aprovado"
+  },
+  "chrome": "Chrome/157.0.8103.50",
+  "states": 50,
+  "journeys": 5,
+  "errors": [],
+  "violations": 0,
+  "incomplete": [
+    {
+      "profile": "320",
+      "state": "m09-estrategias",
+      "raw": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".skip-link"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "html": "<a href=\"#conteudo\" class=\"skip-link\">Ir para o conteúdo principal</a>",
+              "styles": [
+                {
+                  "color": "rgb(23, 62, 49)",
+                  "background": "rgb(255, 255, 255)",
+                  "font": "18px",
+                  "weight": "700",
+                  "outline": "rgb(23, 62, 49) none 3px",
+                  "opacity": "1",
+                  "rect": {
+                    "top": -104.375,
+                    "bottom": -18,
+                    "left": 18,
+                    "right": 287
+                  },
+                  "ancestors": [
+                    {
+                      "tag": "A",
+                      "color": "rgb(23, 62, 49)",
+                      "bg": "rgb(255, 255, 255)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "DIV",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgba(0, 0, 0, 0)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "BODY",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgba(0, 0, 0, 0)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "HTML",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgb(247, 250, 249)",
+                      "opacity": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "directed": {
+        "focused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "hoverFocused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "verdict": "aprovado para texto visível e contorno; axe original inconclusivo preservado"
+      }
+    },
+    {
+      "profile": "320",
+      "state": "m09-envio-bloqueado",
+      "raw": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".skip-link"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "html": "<a href=\"#conteudo\" class=\"skip-link\">Ir para o conteúdo principal</a>",
+              "styles": [
+                {
+                  "color": "rgb(23, 62, 49)",
+                  "background": "rgb(255, 255, 255)",
+                  "font": "18px",
+                  "weight": "700",
+                  "outline": "rgb(23, 62, 49) none 3px",
+                  "opacity": "1",
+                  "rect": {
+                    "top": -104.375,
+                    "bottom": -18,
+                    "left": 18,
+                    "right": 287
+                  },
+                  "ancestors": [
+                    {
+                      "tag": "A",
+                      "color": "rgb(23, 62, 49)",
+                      "bg": "rgb(255, 255, 255)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "DIV",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgba(0, 0, 0, 0)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "BODY",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgba(0, 0, 0, 0)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "HTML",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgb(247, 250, 249)",
+                      "opacity": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "directed": {
+        "focused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "hoverFocused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "verdict": "aprovado para texto visível e contorno; axe original inconclusivo preservado"
+      }
+    },
+    {
+      "profile": "320",
+      "state": "m10-publico",
+      "raw": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".skip-link"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "13.5pt (18px)",
+                    "fontWeight": "bold",
+                    "messageKey": "elmPartiallyObscuring",
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's background color could not be determined because it partially overlaps other elements"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "html": "<a href=\"#conteudo\" class=\"skip-link\">Ir para o conteúdo principal</a>",
+              "styles": [
+                {
+                  "color": "rgb(23, 62, 49)",
+                  "background": "rgb(255, 255, 255)",
+                  "font": "18px",
+                  "weight": "700",
+                  "outline": "rgb(23, 62, 49) none 3px",
+                  "opacity": "1",
+                  "rect": {
+                    "top": -104.375,
+                    "bottom": -18,
+                    "left": 18,
+                    "right": 287
+                  },
+                  "ancestors": [
+                    {
+                      "tag": "A",
+                      "color": "rgb(23, 62, 49)",
+                      "bg": "rgb(255, 255, 255)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "DIV",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgba(0, 0, 0, 0)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "BODY",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgba(0, 0, 0, 0)",
+                      "opacity": "1"
+                    },
+                    {
+                      "tag": "HTML",
+                      "color": "rgb(32, 61, 64)",
+                      "bg": "rgb(247, 250, 249)",
+                      "opacity": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "directed": {
+        "focused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "hoverFocused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "verdict": "aprovado para texto visível e contorno; axe original inconclusivo preservado"
+      }
+    }
+  ],
+  "preservedFilesChanged": [],
+  "reader": "não verificado",
+  "physicalDevices": "não verificado"
+}

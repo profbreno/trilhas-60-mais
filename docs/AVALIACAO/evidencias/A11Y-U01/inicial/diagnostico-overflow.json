@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "SUMMARY",
+    "class": "",
+    "text": "Sobre esta demonstração",
+    "right": 269,
+    "client": 231,
+    "scroll": 262
+  },
+  {
+    "tag": "FOOTER",
+    "class": "site-footer",
+    "text": "Aprender é um caminho para toda a vida.Protótipo de pesquisa",
+    "right": 305,
+    "client": 305,
+    "scroll": 504
+  },
+  {
+    "tag": "DIV",
+    "class": "container flex flex-wrap justify-between gap-6",
+    "text": "Aprender é um caminho para toda a vida.Protótipo de pesquisa",
+    "right": 269,
+    "client": 233,
+    "scroll": 468
+  },
+  {
+    "tag": "DIV",
+    "class": "",
+    "text": "Aprender é um caminho para toda a vida.",
+    "right": 504,
+    "client": 468,
+    "scroll": 468
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo--medium brand-logo--footer",
+    "text": "",
+    "right": 504,
+    "client": 468,
+    "scroll": 468
+  },
+  {
+    "tag": "IMG",
+    "class": "",
+    "text": "",
+    "right": 495,
+    "client": 450,
+    "scroll": 450
+  },
+  {
+    "tag": "P",
+    "class": "",
+    "text": "Aprender é um caminho para toda a vida.",
+    "right": 504,
+    "client": 468,
+    "scroll": 468
+  }
+]

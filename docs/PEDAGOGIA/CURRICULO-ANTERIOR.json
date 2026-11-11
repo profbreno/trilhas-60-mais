@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-10",
+  "version": "0.1.0-dev",
+  "source": "src/data/curriculum.ts",
+  "sourceSha256": "0b62ec60f701d680e3aa9f48565930498bae270dc03061afc54bf7e8a1c5a026",
+  "trails": [
+    {
+      "id": "primeiros-passos",
+      "number": "01",
+      "theme": "green",
+      "title": "Primeiros Passos no Mundo Digital",
+      "description": "Conheça seu celular e descubra novas formas de se comunicar e aprender.",
+      "units": [
+        {
+          "id": "conhecendo-o-celular",
+          "title": "Conhecendo o celular",
+          "description": "Explore os recursos do aparelho com tranquilidade.",
+          "missions": [
+            {
+              "id": "conhecendo-o-celular-1",
+              "title": "Reconhecer os botões e a tela",
+              "objective": "Identificar os principais botões e símbolos do celular."
+            },
+            {
+              "id": "conhecendo-o-celular-2",
+              "title": "Experimentar toques e gestos",
+              "objective": "Conhecer os gestos de tocar, deslizar e ampliar."
+            }
+          ]
+        },
+        {
+          "id": "conexoes-e-ajustes",
+          "title": "Conexões e ajustes",
+          "description": "Entenda as conexões e ajuste a leitura da tela.",
+          "missions": [
+            {
+              "id": "conexoes-e-ajustes-1",
+              "title": "Conhecer a conexão Wi-Fi",
+              "objective": "Reconhecer a conexão Wi-Fi e quando pedir ajuda para se conectar."
+            },
+            {
+              "id": "conexoes-e-ajustes-2",
+              "title": "Ajustar texto e volume",
+              "objective": "Localizar ajustes de tamanho do texto e volume."
+            }
+          ]
+        },
+        {
+          "id": "comunicacao",
+          "title": "Comunicação no dia a dia",
+          "description": "Conheça formas de conversar e encontrar informações.",
+          "missions": [
+            {
+              "id": "comunicacao-1",
+              "title": "Conhecer as mensagens",
+              "objective": "Identificar recursos de texto e áudio em uma conversa fictícia."
+            },
+            {
+              "id": "comunicacao-2",
+              "title": "Explorar uma busca",
+              "objective": "Planejar uma busca simples de informação na internet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seguranca",
+      "number": "02",
+      "theme": "clay",
+      "title": "Segurança e Pensamento Crítico",
+      "description": "Aprenda a cuidar de suas informações e a olhar com atenção para o que recebe.",
+      "units": [
+        {
+          "id": "senhas",
+          "title": "Senhas e proteção",
+          "description": "Reflita sobre o cuidado com o acesso às contas.",
+          "missions": [
+            {
+              "id": "senhas-1",
+              "title": "Reconhecer uma senha forte",
+              "objective": "Comparar exemplos fictícios de senhas sem informar senhas reais."
+            },
+            {
+              "id": "senhas-2",
+              "title": "Conhecer a proteção em duas etapas",
+              "objective": "Reconhecer a finalidade de uma segunda etapa de acesso."
+            }
+          ]
+        },
+        {
+          "id": "golpes",
+          "title": "Atenção aos golpes",
+          "description": "Aprenda a observar pedidos inesperados.",
+          "missions": [
+            {
+              "id": "golpes-1",
+              "title": "Observar uma mensagem suspeita",
+              "objective": "Identificar sinais de alerta em uma mensagem fictícia."
+            },
+            {
+              "id": "golpes-2",
+              "title": "Conferir antes de agir",
+              "objective": "Planejar como confirmar um pedido por outro canal."
+            }
+          ]
+        },
+        {
+          "id": "informacoes",
+          "title": "Informações com cuidado",
+          "description": "Reflita antes de acreditar e compartilhar.",
+          "missions": [
+            {
+              "id": "informacoes-1",
+              "title": "Investigar a origem",
+              "objective": "Reconhecer autoria, data e contexto de uma informação."
+            },
+            {
+              "id": "informacoes-2",
+              "title": "Comparar informações",
+              "objective": "Planejar a comparação de uma notícia em diferentes fontes."
+            }
+          ]
+        },
+        {
+          "id": "privacidade",
+          "title": "Privacidade no cotidiano",
+          "description": "Escolha com cuidado o que compartilhar.",
+          "missions": [
+            {
+              "id": "privacidade-1",
+              "title": "Reconhecer dados pessoais",
+              "objective": "Identificar dados pessoais em exemplos fictícios."
+            },
+            {
+              "id": "privacidade-2",
+              "title": "Conhecer permissões de aplicativos",
+              "objective": "Refletir sobre pedidos de acesso a câmera e localização."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cidadania",
+      "number": "03",
+      "theme": "blue",
+      "title": "Cidadania e Autonomia Digital",
+      "description": "Explore serviços, participe da vida em comunidade e amplie sua autonomia.",
+      "units": [
+        {
+          "id": "servicos",
+          "title": "Serviços digitais",
+          "description": "Conheça caminhos para acessar serviços com apoio.",
+          "missions": [
+            {
+              "id": "servicos-1",
+              "title": "Reconhecer um serviço oficial",
+              "objective": "Observar sinais de identificação de um serviço público fictício."
+            },
+            {
+              "id": "servicos-2",
+              "title": "Planejar um atendimento",
+              "objective": "Organizar os passos de um atendimento simulado, sem dados reais."
+            }
+          ]
+        },
+        {
+          "id": "participacao",
+          "title": "Participação e convivência",
+          "description": "Participe de conversas com respeito e cuidado.",
+          "missions": [
+            {
+              "id": "participacao-1",
+              "title": "Conversar com respeito",
+              "objective": "Refletir sobre convivência em um grupo fictício."
+            },
+            {
+              "id": "participacao-2",
+              "title": "Encontrar iniciativas da comunidade",
+              "objective": "Planejar uma busca por atividades de interesse."
+            }
+          ]
+        },
+        {
+          "id": "aprender-sempre",
+          "title": "Continuar aprendendo",
+          "description": "Reconheça seus interesses e seus próximos passos.",
+          "missions": [
+            {
+              "id": "aprender-sempre-1",
+              "title": "Escolher algo para aprender",
+              "objective": "Identificar um interesse pessoal para uma próxima aprendizagem."
+            },
+            {
+              "id": "aprender-sempre-2",
+              "title": "Construir um plano de autonomia",
+              "objective": "Planejar como praticar e onde buscar apoio quando precisar."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

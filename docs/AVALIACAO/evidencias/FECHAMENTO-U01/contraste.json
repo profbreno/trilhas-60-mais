@@ -1,0 +1,916 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "results": [
+    {
+      "code": "C01",
+      "original": {
+        "profile": "viewport-320",
+        "state": "m01-detalhes",
+        "skip": {
+          "focused": false,
+          "top": -104.375,
+          "bottom": -18
+        }
+      },
+      "audit": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "reason": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      "hidden": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(23, 62, 49)",
+        "outlineWidth": "3px",
+        "outlineStyle": "none",
+        "decoration": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -104.375)",
+        "rect": {
+          "top": -104.375,
+          "bottom": -18,
+          "left": 18,
+          "right": 287
+        },
+        "focused": false,
+        "focusVisible": false,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "paintedInViewport": false,
+        "automaticStatus": "não verificável fora do viewport",
+        "ratioMeaning": "Par CSS calculável; não há texto pintado na janela neste estado."
+      },
+      "focused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "none",
+        "transform": "none",
+        "rect": {
+          "top": 18,
+          "bottom": 104.375,
+          "left": 18,
+          "right": 287
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "outlineWhite": 7.526045896933103,
+        "outlinePage": 7.166582181403303
+      },
+      "hoverFocused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "underline",
+        "transform": "none",
+        "rect": {
+          "top": 18,
+          "bottom": 104.375,
+          "left": 18,
+          "right": 287
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado"
+      },
+      "verdict": "aprovado para o contraste do texto visível; verificação automática original preservada como inconclusiva"
+    },
+    {
+      "code": "C02",
+      "original": {
+        "profile": "texto-200-320",
+        "state": "m01-inicio",
+        "skip": {
+          "focused": false,
+          "top": -268.171875,
+          "bottom": -36
+        }
+      },
+      "audit": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "reason": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      "hidden": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(23, 62, 49)",
+        "outlineWidth": "3px",
+        "outlineStyle": "none",
+        "decoration": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -268.172)",
+        "rect": {
+          "top": -268.171875,
+          "bottom": -36,
+          "left": 36,
+          "right": 269
+        },
+        "focused": false,
+        "focusVisible": false,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "paintedInViewport": false,
+        "automaticStatus": "não verificável fora do viewport",
+        "ratioMeaning": "Par CSS calculável; não há texto pintado na janela neste estado."
+      },
+      "focused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "none",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "outlineWhite": 7.526045896933103,
+        "outlinePage": 7.166582181403303
+      },
+      "hoverFocused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "underline",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado"
+      },
+      "verdict": "aprovado para o contraste do texto visível; verificação automática original preservada como inconclusiva"
+    },
+    {
+      "code": "C03",
+      "original": {
+        "profile": "texto-200-320",
+        "state": "m01-detalhes",
+        "skip": {
+          "focused": false,
+          "top": -268.171875,
+          "bottom": -36
+        }
+      },
+      "audit": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "reason": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      "hidden": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(23, 62, 49)",
+        "outlineWidth": "3px",
+        "outlineStyle": "none",
+        "decoration": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -268.172)",
+        "rect": {
+          "top": -268.171875,
+          "bottom": -36,
+          "left": 36,
+          "right": 269
+        },
+        "focused": false,
+        "focusVisible": false,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "paintedInViewport": false,
+        "automaticStatus": "não verificável fora do viewport",
+        "ratioMeaning": "Par CSS calculável; não há texto pintado na janela neste estado."
+      },
+      "focused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "none",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "outlineWhite": 7.526045896933103,
+        "outlinePage": 7.166582181403303
+      },
+      "hoverFocused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "underline",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado"
+      },
+      "verdict": "aprovado para o contraste do texto visível; verificação automática original preservada como inconclusiva"
+    },
+    {
+      "code": "C04",
+      "original": {
+        "profile": "texto-200-320",
+        "state": "m01-concluida",
+        "skip": {
+          "focused": false,
+          "top": -268.171875,
+          "bottom": -36
+        }
+      },
+      "audit": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "reason": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      "hidden": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(23, 62, 49)",
+        "outlineWidth": "3px",
+        "outlineStyle": "none",
+        "decoration": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -268.172)",
+        "rect": {
+          "top": -268.171875,
+          "bottom": -36,
+          "left": 36,
+          "right": 269
+        },
+        "focused": false,
+        "focusVisible": false,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "paintedInViewport": false,
+        "automaticStatus": "não verificável fora do viewport",
+        "ratioMeaning": "Par CSS calculável; não há texto pintado na janela neste estado."
+      },
+      "focused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "none",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "outlineWhite": 7.526045896933103,
+        "outlinePage": 7.166582181403303
+      },
+      "hoverFocused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "underline",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado"
+      },
+      "verdict": "aprovado para o contraste do texto visível; verificação automática original preservada como inconclusiva"
+    },
+    {
+      "code": "C05",
+      "original": {
+        "profile": "texto-200-320",
+        "state": "m02-concluida",
+        "skip": {
+          "focused": false,
+          "top": -268.171875,
+          "bottom": -36
+        }
+      },
+      "audit": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "reason": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      "hidden": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(23, 62, 49)",
+        "outlineWidth": "3px",
+        "outlineStyle": "none",
+        "decoration": "none",
+        "transform": "matrix(1, 0, 0, 1, 0, -268.172)",
+        "rect": {
+          "top": -268.171875,
+          "bottom": -36,
+          "left": 36,
+          "right": 269
+        },
+        "focused": false,
+        "focusVisible": false,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "paintedInViewport": false,
+        "automaticStatus": "não verificável fora do viewport",
+        "ratioMeaning": "Par CSS calculável; não há texto pintado na janela neste estado."
+      },
+      "focused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "none",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado",
+        "outlineWhite": 7.526045896933103,
+        "outlinePage": 7.166582181403303
+      },
+      "hoverFocused": {
+        "selector": ".skip-link",
+        "text": "Ir para o conteúdo principal",
+        "foreground": "rgb(23, 62, 49)",
+        "ownBackground": "rgb(255, 255, 255)",
+        "effectiveBackground": "rgb(255, 255, 255)",
+        "backgroundChain": [
+          {
+            "tag": "A",
+            "background": "rgb(255, 255, 255)"
+          }
+        ],
+        "opacity": "1",
+        "filter": "none",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "outlineColor": "rgb(132, 67, 14)",
+        "outlineWidth": "3px",
+        "outlineStyle": "solid",
+        "decoration": "underline",
+        "transform": "none",
+        "rect": {
+          "top": 36,
+          "bottom": 268.171875,
+          "left": 36,
+          "right": 269
+        },
+        "focused": true,
+        "focusVisible": true,
+        "disabled": false,
+        "accent": "auto",
+        "ratio": 11.865535301875378,
+        "textStatus": "aprovado"
+      },
+      "verdict": "aprovado para o contraste do texto visível; verificação automática original preservada como inconclusiva"
+    }
+  ],
+  "supplementary": [
+    {
+      "name": "M01 apps desabilitados após conclusão",
+      "scope": "Estado inativo, isento dos mínimos de 1.4.3/1.4.11; proporção informativa.",
+      "selector": ".simulation-device button:disabled",
+      "text": "Recados do bairro",
+      "foreground": "rgb(73, 99, 103)",
+      "ownBackground": "rgb(234, 243, 241)",
+      "effectiveBackground": "rgb(234, 243, 241)",
+      "backgroundChain": [
+        {
+          "tag": "BUTTON",
+          "background": "rgb(234, 243, 241)"
+        }
+      ],
+      "opacity": "1",
+      "filter": "none",
+      "fontSize": "36px",
+      "fontWeight": "650",
+      "outlineColor": "rgb(73, 99, 103)",
+      "outlineWidth": "3px",
+      "outlineStyle": "none",
+      "decoration": "none",
+      "transform": "none",
+      "rect": {
+        "top": -4721.140625,
+        "bottom": -3770.6875,
+        "left": 74,
+        "right": 231
+      },
+      "focused": false,
+      "focusVisible": false,
+      "disabled": true,
+      "accent": "auto",
+      "ratio": 5.695329872021962,
+      "textStatus": "aprovado"
+    },
+    {
+      "name": "Ação principal normal",
+      "selector": "button.button--primary",
+      "text": "Conhecer a atividade",
+      "foreground": "rgb(255, 255, 255)",
+      "ownBackground": "rgb(21, 88, 92)",
+      "effectiveBackground": "rgb(21, 88, 92)",
+      "backgroundChain": [
+        {
+          "tag": "BUTTON",
+          "background": "rgb(21, 88, 92)"
+        }
+      ],
+      "opacity": "1",
+      "filter": "none",
+      "fontSize": "18px",
+      "fontWeight": "650",
+      "outlineColor": "rgb(255, 255, 255)",
+      "outlineWidth": "3px",
+      "outlineStyle": "none",
+      "decoration": "none",
+      "transform": "none",
+      "rect": {
+        "top": 463.921875,
+        "bottom": 524.390625,
+        "left": 146.5,
+        "right": 368.9375
+      },
+      "focused": false,
+      "focusVisible": false,
+      "disabled": false,
+      "accent": "auto",
+      "ratio": 8.132232710947992,
+      "textStatus": "aprovado"
+    },
+    {
+      "name": "Ação principal hover forçado por DevTools",
+      "selector": "button.button--primary",
+      "text": "Conhecer a atividade",
+      "foreground": "rgb(255, 255, 255)",
+      "ownBackground": "rgb(16, 68, 72)",
+      "effectiveBackground": "rgb(16, 68, 72)",
+      "backgroundChain": [
+        {
+          "tag": "BUTTON",
+          "background": "rgb(16, 68, 72)"
+        }
+      ],
+      "opacity": "1",
+      "filter": "none",
+      "fontSize": "18px",
+      "fontWeight": "650",
+      "outlineColor": "rgb(255, 255, 255)",
+      "outlineWidth": "3px",
+      "outlineStyle": "none",
+      "decoration": "none",
+      "transform": "none",
+      "rect": {
+        "top": 463.921875,
+        "bottom": 524.390625,
+        "left": 146.5,
+        "right": 368.9375
+      },
+      "focused": false,
+      "focusVisible": false,
+      "disabled": false,
+      "accent": "auto",
+      "ratio": 10.811052357403868,
+      "textStatus": "aprovado"
+    },
+    {
+      "name": "Feedback de erro M02",
+      "selector": ".status-message--error p",
+      "text": "O cenário descreve letras pequenas. O volume pode ajudar com sons, mas não muda o tamanho do texto. Você pode rever sua escolha.",
+      "foreground": "rgb(141, 41, 51)",
+      "ownBackground": "rgba(0, 0, 0, 0)",
+      "effectiveBackground": "rgb(255, 241, 241)",
+      "backgroundChain": [
+        {
+          "tag": "P",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgb(255, 241, 241)"
+        }
+      ],
+      "opacity": "1",
+      "filter": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "outlineColor": "rgb(141, 41, 51)",
+      "outlineWidth": "3px",
+      "outlineStyle": "none",
+      "decoration": "none",
+      "transform": "none",
+      "rect": {
+        "top": 866.03125,
+        "bottom": 925.40625,
+        "left": 206,
+        "right": 1077.5
+      },
+      "focused": false,
+      "focusVisible": false,
+      "disabled": false,
+      "accent": "auto",
+      "ratio": 7.649297664816947,
+      "textStatus": "aprovado"
+    },
+    {
+      "name": "Rótulo da opção selecionada M02",
+      "selector": "label:has(input[value=enlarged])",
+      "text": "Texto ampliado",
+      "foreground": "rgb(32, 61, 64)",
+      "ownBackground": "rgba(0, 0, 0, 0)",
+      "effectiveBackground": "rgb(247, 250, 249)",
+      "backgroundChain": [
+        {
+          "tag": "LABEL",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "FIELDSET",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "FORM",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "SECTION",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "MAIN",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "DIV",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "BODY",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "tag": "HTML",
+          "background": "rgb(247, 250, 249)"
+        }
+      ],
+      "opacity": "1",
+      "filter": "none",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "outlineColor": "rgb(32, 61, 64)",
+      "outlineWidth": "3px",
+      "outlineStyle": "none",
+      "decoration": "none",
+      "transform": "none",
+      "rect": {
+        "top": 500.984375,
+        "bottom": 550.671875,
+        "left": 156.5,
+        "right": 602.5
+      },
+      "focused": false,
+      "focusVisible": false,
+      "disabled": false,
+      "accent": "auto",
+      "ratio": 11.0912850443629,
+      "textStatus": "aprovado",
+      "checked": true,
+      "nativeIndicator": "Somente rótulo medido; pixels/contraste do círculo nativo não avaliados por este cálculo."
+    }
+  ],
+  "method": "getComputedStyle em Chrome, fundo opaco próprio/ancestral e fórmula sRGB WCAG; sem amostrar pixels antialiasados. Hover forçado via DevTools. Testes com leitor de tela não executados."
+}

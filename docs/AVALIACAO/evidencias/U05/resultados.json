@@ -1,0 +1,2356 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "zooms": [
+    {
+      "profile": "360",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 1,
+        "nativeResize": {
+          "innerWidth": 512,
+          "innerHeight": 900,
+          "outerWidth": 534,
+          "outerHeight": 998,
+          "dpr": 1,
+          "scale": 1,
+          "root": "18px",
+          "clientWidth": 497,
+          "scrollWidth": 497
+        },
+        "viewportEmulation": {
+          "width": 360,
+          "height": 900
+        }
+      },
+      "page": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      }
+    },
+    {
+      "profile": "1280",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 1
+      },
+      "page": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      }
+    },
+    {
+      "profile": "zoom200",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 2
+      },
+      "page": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      }
+    },
+    {
+      "profile": "zoom400",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 3.9999999999999996
+      },
+      "page": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      }
+    },
+    {
+      "profile": "320",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 1,
+        "nativeResize": {
+          "innerWidth": 512,
+          "innerHeight": 900,
+          "outerWidth": 534,
+          "outerHeight": 998,
+          "dpr": 1,
+          "scale": 1,
+          "root": "18px",
+          "clientWidth": 497,
+          "scrollWidth": 497
+        },
+        "viewportEmulation": {
+          "width": 320,
+          "height": 900
+        }
+      },
+      "page": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      }
+    }
+  ],
+  "records": [
+    {
+      "profile": "360",
+      "state": "m09-estrategias",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "INPUT",
+        "label": "",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 437.921875,
+        "bottom": 461.3125,
+        "left": 32.5,
+        "right": 55.890625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-envio-bloqueado",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Tentar enviar código pela conversa — simulação",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 435.140625,
+        "bottom": 525.296875,
+        "left": 37,
+        "right": 308
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-acesso-protegido",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Usar código no acesso que iniciei",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 692.1875,
+        "bottom": 782.34375,
+        "left": 37,
+        "right": 308
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-revisao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Confirmar proteção simulada",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 526.390625,
+        "bottom": 586.859375,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-conclusao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-rascunho",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Edite o convite de exemplo",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-editado",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "SECTION",
+        "label": "Prévia da publicaçãoSomente nesta simulação. Nada foi publicado.Título da oficinaOficina de leitura ",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 238.34375,
+        "bottom": 899.59375,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-publico",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Revisar decisões de proteção",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 595.15625,
+        "bottom": 655.625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-revisao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Revise suas escolhas",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-conclusao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m09-estrategias",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "INPUT",
+        "label": "",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 119.578125,
+        "bottom": 142.96875,
+        "left": 172,
+        "right": 195.390625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m09-envio-bloqueado",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Tentar enviar código pela conversa — simulação",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 749.484375,
+        "bottom": 809.953125,
+        "left": 176.5,
+        "right": 628.265625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m09-acesso-protegido",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Usar código no acesso que iniciei",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 420.015625,
+        "bottom": 480.484375,
+        "left": 176.5,
+        "right": 500.65625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m09-revisao",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Confirmar proteção simulada",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 420.234375,
+        "bottom": 480.703125,
+        "left": 157.5,
+        "right": 465.15625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m09-conclusao",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 290.484375,
+        "bottom": 329.859375,
+        "left": 157.5,
+        "right": 1107.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m10-rascunho",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Edite o convite de exemplo",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 290.484375,
+        "bottom": 329.859375,
+        "left": 157.5,
+        "right": 1107.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m10-editado",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "SECTION",
+        "label": "Prévia da publicaçãoSomente nesta simulação. Nada foi publicado.Título da oficinaOficina de leitura ",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 387.640625,
+        "bottom": 900.453125,
+        "left": 157.5,
+        "right": 1107.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m10-publico",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Revisar decisões de proteção",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 833.421875,
+        "bottom": 893.890625,
+        "left": 157.5,
+        "right": 625.75
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m10-revisao",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Revise suas escolhas",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 290.484375,
+        "bottom": 329.859375,
+        "left": 157.5,
+        "right": 1107.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "1280",
+      "state": "m10-conclusao",
+      "layout": {
+        "innerWidth": 1280,
+        "innerHeight": 900,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 1265,
+        "scrollWidth": 1265
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 290.484375,
+        "bottom": 329.859375,
+        "left": 157.5,
+        "right": 1107.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m09-estrategias",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "INPUT",
+        "label": "",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 213.40625,
+        "bottom": 236.8046875,
+        "left": 41.5,
+        "right": 64.8984375
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m09-envio-bloqueado",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Tentar enviar código pela conversa — simulação",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 194.859375,
+        "bottom": 255.3515625,
+        "left": 46,
+        "right": 497.7578125
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m09-acesso-protegido",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Usar código no acesso que iniciei",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 378.125,
+        "bottom": 438.6171875,
+        "left": 46,
+        "right": 370.1484375
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m09-revisao",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Confirmar proteção simulada",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 272.1328125,
+        "bottom": 362.3203125,
+        "left": 27,
+        "right": 309.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m09-conclusao",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 209.0078125,
+        "bottom": 240.5078125,
+        "left": 27,
+        "right": 605.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m10-rascunho",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Edite o convite de exemplo",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 209.0078125,
+        "bottom": 240.5078125,
+        "left": 27,
+        "right": 605.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m10-editado",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "SECTION",
+        "label": "Prévia da publicaçãoSomente nesta simulação. Nada foi publicado.Título da oficinaOficina de leitura ",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 0.0703125,
+        "bottom": 512.984375,
+        "left": 27,
+        "right": 605.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m10-publico",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Revisar decisões de proteção",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 359.78125,
+        "bottom": 449.96875,
+        "left": 27,
+        "right": 309.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m10-revisao",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Revise suas escolhas",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 209.0078125,
+        "bottom": 240.5078125,
+        "left": 27,
+        "right": 605.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom200",
+      "state": "m10-conclusao",
+      "layout": {
+        "innerWidth": 640,
+        "innerHeight": 450,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 2,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 632,
+        "scrollWidth": 632
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 209.0078125,
+        "bottom": 240.5078125,
+        "left": 27,
+        "right": 605.5
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6953125,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m09-estrategias",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "INPUT",
+        "label": "",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 100.77734375,
+        "bottom": 124.17578125,
+        "left": 32.5,
+        "right": 55.8984375
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m09-envio-bloqueado",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Tentar enviar código pela conversa — simulação",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 52.51953125,
+        "bottom": 172.4140625,
+        "left": 37,
+        "right": 279.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m09-acesso-protegido",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Usar código no acesso que iniciei",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 67.3828125,
+        "bottom": 157.578125,
+        "left": 37,
+        "right": 279.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m09-revisao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Confirmar proteção simulada",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 134.890625,
+        "bottom": 225.0859375,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m09-conclusao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 80.9296875,
+        "bottom": 143.921875,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m10-rascunho",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Edite o convite de exemplo",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 80.9296875,
+        "bottom": 143.921875,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m10-editado",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "SECTION",
+        "label": "Prévia da publicaçãoSomente nesta simulação. Nada foi publicado.Título da oficinaOficina de leitura ",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": -0.10546875,
+        "bottom": 691.0546875,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m10-publico",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Revisar decisões de proteção",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 67.30078125,
+        "bottom": 157.49609375,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m10-revisao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Revise suas escolhas",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 96.6796875,
+        "bottom": 128.17578125,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "zoom400",
+      "state": "m10-conclusao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 225,
+        "outerWidth": 1302,
+        "outerHeight": 998,
+        "dpr": 4,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 316,
+        "scrollWidth": 316
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 80.9296875,
+        "bottom": 143.921875,
+        "left": 18,
+        "right": 298.25
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.69921875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m09-estrategias",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "INPUT",
+        "label": "",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 408.984375,
+        "bottom": 432.375,
+        "left": 32.5,
+        "right": 55.890625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "13.5pt (18px)",
+                      "fontWeight": "bold",
+                      "messageKey": "elmPartiallyObscuring",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined because it partially overlaps other elements"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "html": "<a href=\"#conteudo\" class=\"skip-link\">Ir para o conteúdo principal</a>",
+                "styles": [
+                  {
+                    "color": "rgb(23, 62, 49)",
+                    "background": "rgb(255, 255, 255)",
+                    "font": "18px",
+                    "weight": "700",
+                    "outline": "rgb(23, 62, 49) none 3px",
+                    "opacity": "1",
+                    "rect": {
+                      "top": -104.375,
+                      "bottom": -18,
+                      "left": 18,
+                      "right": 287
+                    },
+                    "ancestors": [
+                      {
+                        "tag": "A",
+                        "color": "rgb(23, 62, 49)",
+                        "bg": "rgb(255, 255, 255)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "DIV",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "BODY",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "HTML",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgb(247, 250, 249)",
+                        "opacity": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "statusContraste": "não verificado",
+      "status": "aprovado",
+      "directedContrast": {
+        "focused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "hoverFocused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "verdict": "aprovado para texto visível e contorno; axe original inconclusivo preservado"
+      }
+    },
+    {
+      "profile": "320",
+      "state": "m09-envio-bloqueado",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Tentar enviar código pela conversa — simulação",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 389.75,
+        "bottom": 509.59375,
+        "left": 37,
+        "right": 268
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "13.5pt (18px)",
+                      "fontWeight": "bold",
+                      "messageKey": "elmPartiallyObscuring",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined because it partially overlaps other elements"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "html": "<a href=\"#conteudo\" class=\"skip-link\">Ir para o conteúdo principal</a>",
+                "styles": [
+                  {
+                    "color": "rgb(23, 62, 49)",
+                    "background": "rgb(255, 255, 255)",
+                    "font": "18px",
+                    "weight": "700",
+                    "outline": "rgb(23, 62, 49) none 3px",
+                    "opacity": "1",
+                    "rect": {
+                      "top": -104.375,
+                      "bottom": -18,
+                      "left": 18,
+                      "right": 287
+                    },
+                    "ancestors": [
+                      {
+                        "tag": "A",
+                        "color": "rgb(23, 62, 49)",
+                        "bg": "rgb(255, 255, 255)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "DIV",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "BODY",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "HTML",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgb(247, 250, 249)",
+                        "opacity": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "statusContraste": "não verificado",
+      "status": "aprovado",
+      "directedContrast": {
+        "focused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "hoverFocused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "verdict": "aprovado para texto visível e contorno; axe original inconclusivo preservado"
+      }
+    },
+    {
+      "profile": "320",
+      "state": "m09-acesso-protegido",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Usar código no acesso que iniciei",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 692.796875,
+        "bottom": 782.953125,
+        "left": 37,
+        "right": 268
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m09-revisao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Confirmar proteção simulada",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 555.828125,
+        "bottom": 645.984375,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m09-conclusao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m10-rascunho",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Edite o convite de exemplo",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m10-editado",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "SECTION",
+        "label": "Prévia da publicaçãoSomente nesta simulação. Nada foi publicado.Título da oficinaOficina de leitura ",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 119.953125,
+        "bottom": 899.953125,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m10-publico",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Revisar decisões de proteção",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 594.96875,
+        "bottom": 685.125,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".skip-link"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements",
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "13.5pt (18px)",
+                      "fontWeight": "bold",
+                      "messageKey": "elmPartiallyObscuring",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined because it partially overlaps other elements"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "html": "<a href=\"#conteudo\" class=\"skip-link\">Ir para o conteúdo principal</a>",
+                "styles": [
+                  {
+                    "color": "rgb(23, 62, 49)",
+                    "background": "rgb(255, 255, 255)",
+                    "font": "18px",
+                    "weight": "700",
+                    "outline": "rgb(23, 62, 49) none 3px",
+                    "opacity": "1",
+                    "rect": {
+                      "top": -104.375,
+                      "bottom": -18,
+                      "left": 18,
+                      "right": 287
+                    },
+                    "ancestors": [
+                      {
+                        "tag": "A",
+                        "color": "rgb(23, 62, 49)",
+                        "bg": "rgb(255, 255, 255)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "DIV",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "BODY",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "opacity": "1"
+                      },
+                      {
+                        "tag": "HTML",
+                        "color": "rgb(32, 61, 64)",
+                        "bg": "rgb(247, 250, 249)",
+                        "opacity": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "statusContraste": "não verificado",
+      "status": "aprovado",
+      "directedContrast": {
+        "focused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "hoverFocused": {
+          "foreground": "rgb(23, 62, 49)",
+          "background": "rgb(255, 255, 255)",
+          "outline": "rgb(132, 67, 14) solid 3px",
+          "outlineColor": "rgb(132, 67, 14)",
+          "focusVisible": true,
+          "textRatio": 11.865535301875378,
+          "outlinePage": 7.166582181403303,
+          "outlineWhite": 7.526045896933103,
+          "rect": {
+            "top": 18,
+            "bottom": 104.375,
+            "left": 18,
+            "right": 287
+          }
+        },
+        "verdict": "aprovado para texto visível e contorno; axe original inconclusivo preservado"
+      }
+    },
+    {
+      "profile": "320",
+      "state": "m10-revisao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Revise suas escolhas",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "320",
+      "state": "m10-conclusao",
+      "layout": {
+        "innerWidth": 320,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 305,
+        "scrollWidth": 305
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 287
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -104.375,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    }
+  ],
+  "journeys": [
+    {
+      "profile": "360",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M09 comparação, reuso, etapa adicional, código no acesso, envio bloqueado, recusa e revisão; M10 inspeção, retirar/recolocar, prévia, público, justificativa, confirmação, repetição e retorno U05."
+    },
+    {
+      "profile": "1280",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M09 comparação, reuso, etapa adicional, código no acesso, envio bloqueado, recusa e revisão; M10 inspeção, retirar/recolocar, prévia, público, justificativa, confirmação, repetição e retorno U05."
+    },
+    {
+      "profile": "zoom200",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M09 comparação, reuso, etapa adicional, código no acesso, envio bloqueado, recusa e revisão; M10 inspeção, retirar/recolocar, prévia, público, justificativa, confirmação, repetição e retorno U05."
+    },
+    {
+      "profile": "zoom400",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M09 comparação, reuso, etapa adicional, código no acesso, envio bloqueado, recusa e revisão; M10 inspeção, retirar/recolocar, prévia, público, justificativa, confirmação, repetição e retorno U05."
+    },
+    {
+      "profile": "320",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M09 comparação, reuso, etapa adicional, código no acesso, envio bloqueado, recusa e revisão; M10 inspeção, retirar/recolocar, prévia, público, justificativa, confirmação, repetição e retorno U05."
+    }
+  ],
+  "errors": [],
+  "protectedFiles": {
+    "src/data/curriculum.ts": "4b116065a7eb3ec2e4b71ebc5cd97bcce37a1aaf8ea64dbcf63b487062c41dfd",
+    "src/data/demoMissions.ts": "4aee67e7e6c314d04ef2bf9f5eb117fd0213a700b8bfd586e6cba47c56966981",
+    "src/domain/missions/communication.test.ts": "976f1a393788c45519a118455dea6ae4cc4b9ad590c07db09067c4d70194e616",
+    "src/domain/missions/communication.ts": "14b505e195c8975ced170f2b83d34cb3820bd0342ea62f222a406885e6fb4805",
+    "src/domain/missions/execution.test.ts": "7ea75bc8475c176998a6ba27b28e410fca0459ad1985cae234faa404e301e0f6",
+    "src/domain/missions/execution.ts": "51dc1379c2d964ac6aea8c2ac06611c7311a253bd90ee16b9bfee163ef6ac3a0",
+    "src/domain/missions/informationCheck.test.ts": "3a9821b341ccfae8bd66c6fa0bcf5bda31294652e9a50d946e70769561ce4311",
+    "src/domain/missions/informationCheck.ts": "788ae55aa0af5613464e024f01d08a5289bc71c5d6701641aad0a6d030c10482",
+    "src/domain/missions/navigation.ts": "af28da616477122175bb652c71a146ff85abee114cad5a1cfec04487b22abe97",
+    "src/domain/missions/privacyDecision.test.ts": "522d4dc585f4ad59d8370486e13a6598da57aa63dbc187f130090158f1333179",
+    "src/domain/missions/privacyDecision.ts": "454fa3e08830b2bc6b96cce4453991c6afe02dd81e1170eff22c9d2b22a0013d",
+    "src/domain/missions/reading.ts": "fb4f5009f345fcc6a2a1dd7d969168d6df8a5d4859cb5362389785e569c0b8fb",
+    "src/domain/missions/search.test.ts": "2daeca9ff942703beeadca04ed7776ecacb6153caf2b5e9962458099195de634",
+    "src/domain/missions/search.ts": "16f625f31cd733132f4e831d469c6c7080e5815b6d05e5f6de8ca4d54a2fe42e",
+    "src/domain/missions/types.ts": "088016bb22784b76c419d748bae5df0d98d1ecaadca922901366e293fdcfde1f",
+    "public/brand/logo-trilhas60-principal.png": "5a9505e993ca29ac31d42130b9aa2145227bdcfd43f2e2ab0d7b75e1493d7c44",
+    "public/brand/logo-trilhas60-transparente.png": "f6bbaf6e78ec5b03560a524761e58ac6a6f2377770c8e690af0a28d6fff836f4"
+  }
+}

@@ -1,0 +1,3860 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "zoomShortcut": {
+    "beforeZoom": {
+      "width": 758,
+      "ratio": 1,
+      "scale": 1
+    },
+    "afterZoom": {
+      "width": 758,
+      "ratio": 1,
+      "scale": 1
+    },
+    "verified": false,
+    "note": "Atalho headless não comprova zoom real a 200%; seguir roteiro manual."
+  },
+  "records": [
+    {
+      "name": "m01-360-inicio",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Encontre os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Recados do bairro",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Calendário",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-360-erro",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Encontre os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à tela inicial da simulação",
+            "width": 269,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-360-pausa",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Prática interrompida nesta página",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática interrompida nesta página",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Retomar a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-360-recuperacao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Recupere o caminho até os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Recupere o caminho até os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à tela inicial da simulação",
+            "width": 269,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-360-conclusao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Prática concluída nesta demonstração",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática concluída nesta demonstração",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Repetir a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Recados do bairro",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": true
+          },
+          {
+            "name": "Calendário",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": true
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-360-erro",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Quero aumentar o som",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Reconheça a dificuldade",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Quero melhorar a leitura do texto",
+            "width": 309,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Quero aumentar o som",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-360-ajustes",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 29
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Aplicar ajustes e ler o convite",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Experimente uma apresentação",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Padrão",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Texto ampliado",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Modo de leitura",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho padrão",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho confortável",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Silenciado",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Volume audível",
+            "width": 271,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Aplicar ajustes e ler o convite",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-360-local-incorreto",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Coreto da Praça das Flores",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre o local do encontro",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Coreto da Praça das Flores",
+            "width": 271,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Salão de leitura do Centro Comunitário",
+            "width": 271,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Pátio da Biblioteca do Jardim",
+            "width": 271,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-360-leitura",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Encontre o local do encontro",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre o local do encontro",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Coreto da Praça das Flores",
+            "width": 271,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Salão de leitura do Centro Comunitário",
+            "width": 271,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Pátio da Biblioteca do Jardim",
+            "width": 271,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-360-conclusao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 360,
+        "height": 900,
+        "scrollWidth": 345,
+        "clientWidth": 345,
+        "focused": "Prática concluída nesta demonstração",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática concluída nesta demonstração",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 309,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Repetir a micromissão",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 309,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-768-inicio",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Encontre os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Recados do bairro",
+            "width": 313.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Calendário",
+            "width": 313.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-768-erro",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Encontre os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à tela inicial da simulação",
+            "width": 355.4375,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-768-pausa",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Prática interrompida nesta página",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática interrompida nesta página",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Retomar a prática",
+            "width": 195.578125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-768-recuperacao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Recupere o caminho até os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Recupere o caminho até os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à tela inicial da simulação",
+            "width": 355.4375,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-768-conclusao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Prática concluída nesta demonstração",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática concluída nesta demonstração",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Repetir a micromissão",
+            "width": 232.5,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Recados do bairro",
+            "width": 313.75,
+            "height": 60.46875,
+            "disabled": true
+          },
+          {
+            "name": "Calendário",
+            "width": 313.75,
+            "height": 60.46875,
+            "disabled": true
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-768-erro",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Quero aumentar o som",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Reconheça a dificuldade",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Quero melhorar a leitura do texto",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Quero aumentar o som",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-768-ajustes",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 29
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Aplicar ajustes e ler o convite",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Experimente uma apresentação",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Padrão",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Texto ampliado",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Modo de leitura",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho padrão",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho confortável",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Silenciado",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Volume audível",
+            "width": 661,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Aplicar ajustes e ler o convite",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-768-local-incorreto",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Coreto da Praça das Flores",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre o local do encontro",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Coreto da Praça das Flores",
+            "width": 323.75,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Salão de leitura do Centro Comunitário",
+            "width": 323.75,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Pátio da Biblioteca do Jardim",
+            "width": 661,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-768-leitura",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Encontre o local do encontro",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre o local do encontro",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Coreto da Praça das Flores",
+            "width": 323.75,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Salão de leitura do Centro Comunitário",
+            "width": 323.75,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Pátio da Biblioteca do Jardim",
+            "width": 661,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 342.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 699,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-768-conclusao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 768,
+        "height": 900,
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "focused": "Prática concluída nesta demonstração",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática concluída nesta demonstração",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Repetir a micromissão",
+            "width": 232.5,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-1280-inicio",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Encontre os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Recados do bairro",
+            "width": 439.25,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Calendário",
+            "width": 439.25,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-1280-erro",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Encontre os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à tela inicial da simulação",
+            "width": 355.4375,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-1280-pausa",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Prática interrompida nesta página",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática interrompida nesta página",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Retomar a prática",
+            "width": 195.578125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 950,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-1280-recuperacao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Recupere o caminho até os recados",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Recupere o caminho até os recados",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à tela inicial da simulação",
+            "width": 355.4375,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m01-1280-conclusao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 25
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Prática concluída nesta demonstração",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática concluída nesta demonstração",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Repetir a micromissão",
+            "width": 232.5,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Recados do bairro",
+            "width": 439.25,
+            "height": 60.46875,
+            "disabled": true
+          },
+          {
+            "name": "Calendário",
+            "width": 439.25,
+            "height": 60.46875,
+            "disabled": true
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-1280-erro",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Quero aumentar o som",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Reconheça a dificuldade",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Quero melhorar a leitura do texto",
+            "width": 468.25,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Quero aumentar o som",
+            "width": 468.25,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-1280-ajustes",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 29
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Aplicar ajustes e ler o convite",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Experimente uma apresentação",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Padrão",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Texto ampliado",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Modo de leitura",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho padrão",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho confortável",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Silenciado",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Volume audível",
+            "width": 912,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Aplicar ajustes e ler o convite",
+            "width": 950,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-1280-local-incorreto",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Coreto da Praça das Flores",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre o local do encontro",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Coreto da Praça das Flores",
+            "width": 295,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Salão de leitura do Centro Comunitário",
+            "width": 295,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Pátio da Biblioteca do Jardim",
+            "width": 295,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-1280-leitura",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Encontre o local do encontro",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Encontre o local do encontro",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Coreto da Praça das Flores",
+            "width": 295,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Salão de leitura do Centro Comunitário",
+            "width": 295,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Pátio da Biblioteca do Jardim",
+            "width": 295,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 307.65625,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 307.671875,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-1280-conclusao",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 27
+      },
+      "layout": {
+        "width": 1280,
+        "height": 900,
+        "scrollWidth": 1265,
+        "clientWidth": 1265,
+        "focused": "Prática concluída nesta demonstração",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Prática concluída nesta demonstração",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 162,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 55.15625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 187.375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Repetir a micromissão",
+            "width": 232.5,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 264.703125,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 245.75,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-320-reflow",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 29
+      },
+      "layout": {
+        "width": 320,
+        "height": 900,
+        "scrollWidth": 305,
+        "clientWidth": 305,
+        "focused": "Experimente uma apresentação",
+        "focusOutline": "rgb(132, 67, 14) solid 3px",
+        "h1": 1,
+        "heading": "Experimente uma apresentação",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 269,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Padrão",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Texto ampliado",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Modo de leitura",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho padrão",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho confortável",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Silenciado",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Volume audível",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Aplicar ajustes e ler o convite",
+            "width": 269,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "m02-320-cores-forcadas",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 29
+      },
+      "layout": {
+        "width": 320,
+        "height": 900,
+        "scrollWidth": 305,
+        "clientWidth": 305,
+        "focused": "Experimente uma apresentação",
+        "focusOutline": "rgb(55, 0, 110) solid 3px",
+        "h1": 1,
+        "heading": "Experimente uma apresentação",
+        "storage": {
+          "local": 0,
+          "session": 0,
+          "cookies": ""
+        },
+        "controls": [
+          {
+            "name": "Ir para o conteúdo principal",
+            "width": 271.453125,
+            "height": 56.6875,
+            "disabled": false
+          },
+          {
+            "name": "",
+            "width": 269,
+            "height": 91.140625,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 49.390625,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Conheça as trilhas",
+            "width": 168.1875,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Início",
+            "width": 48,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Primeiros Passos no Mundo Digital",
+            "width": 234.78125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Operação básica do celular",
+            "width": 182.078125,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Padrão",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Texto ampliado",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Modo de leitura",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho padrão",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Brilho confortável",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Silenciado",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Volume audível",
+            "width": 231,
+            "height": 58.6875,
+            "disabled": false
+          },
+          {
+            "name": "Aplicar ajustes e ler o convite",
+            "width": 269,
+            "height": 90.15625,
+            "disabled": false
+          },
+          {
+            "name": "Desfazer ajustes da prévia",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Ajuda nesta página",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à etapa anterior",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Interromper a prática",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Reiniciar a micromissão",
+            "width": 269,
+            "height": 60.46875,
+            "disabled": false
+          },
+          {
+            "name": "Voltar à unidade",
+            "width": 167.484375,
+            "height": 48,
+            "disabled": false
+          },
+          {
+            "name": "Sobre este projeto",
+            "width": 139.671875,
+            "height": 48,
+            "disabled": false
+          }
+        ]
+      }
+    }
+  ],
+  "requests": [
+    "http://127.0.0.1:5173/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx?t=1794316159240",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=96ae9746",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=96ae9746",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=96ae9746",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=96ae9746",
+    "http://127.0.0.1:5173/src/app/App.tsx",
+    "http://127.0.0.1:5173/src/styles/index.css?t=1794316159240",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/chunk-6KR6EHOJ.js?v=96ae9746",
+    "http://127.0.0.1:5173/src/pages/HomePage.tsx",
+    "http://127.0.0.1:5173/src/pages/CurriculumPages.tsx",
+    "http://127.0.0.1:5173/src/components/AppLayout.tsx",
+    "http://127.0.0.1:5173/src/pages/DemoMissionPages.tsx",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NFII4E6V.js?v=96ae9746",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=96ae9746",
+    "http://127.0.0.1:5173/src/data/curriculum.ts",
+    "http://127.0.0.1:5173/src/components/CurriculumCards.tsx",
+    "http://127.0.0.1:5173/src/components/HelpButton.tsx",
+    "http://127.0.0.1:5173/src/components/StatusMessage.tsx",
+    "http://127.0.0.1:5173/src/components/BrandLogo.tsx",
+    "http://127.0.0.1:5173/src/components/AccessibleButton.tsx",
+    "http://127.0.0.1:5173/src/data/demoMissions.ts",
+    "http://127.0.0.1:5173/src/components/missions/MissionRunner.tsx",
+    "http://127.0.0.1:5173/src/data/legacyCurriculum.ts",
+    "http://127.0.0.1:5173/src/domain/curriculumPaths.ts",
+    "http://127.0.0.1:5173/src/pages/LegacyCurriculumPage.tsx",
+    "http://127.0.0.1:5173/src/components/Breadcrumbs.tsx",
+    "http://127.0.0.1:5173/src/components/TrailIcon.tsx",
+    "http://127.0.0.1:5173/src/components/PageHeader.tsx",
+    "http://127.0.0.1:5173/src/components/BackNavigation.tsx",
+    "http://127.0.0.1:5173/src/components/ProgressIndicator.tsx",
+    "http://127.0.0.1:5173/src/components/EmptyState.tsx",
+    "http://127.0.0.1:5173/src/components/AppHeader.tsx",
+    "http://127.0.0.1:5173/src/app/useMissionExecution.ts",
+    "http://127.0.0.1:5173/src/components/missions/MissionPresentation.tsx",
+    "http://127.0.0.1:5173/src/components/missions/NavigationActivity.tsx",
+    "http://127.0.0.1:5173/src/components/missions/ReadingActivity.tsx",
+    "http://127.0.0.1:5173/src/domain/missions/execution.ts",
+    "http://127.0.0.1:5173/src/domain/missions/navigation.ts",
+    "http://127.0.0.1:5173/src/domain/missions/reading.ts",
+    "http://127.0.0.1:5173/brand/logo-trilhas60-principal.png",
+    "http://127.0.0.1:5173/brand/logo-trilhas60-transparente.png",
+    "http://127.0.0.1:5173/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/preparar-a-tela-para-ler-um-convite"
+  ]
+}

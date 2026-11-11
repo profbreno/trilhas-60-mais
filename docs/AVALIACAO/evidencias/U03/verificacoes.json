@@ -1,0 +1,61 @@
+{
+  "version": "0.1.0-dev",
+  "node": "v20.17.0",
+  "checks": {
+    "lint": "aprovado",
+    "types": "aprovado",
+    "tests": {
+      "files": 17,
+      "total": 253,
+      "previous": 225,
+      "added": 28
+    },
+    "build": "aprovado"
+  },
+  "chrome": "Chrome/157.0.8103.50",
+  "u03": {
+    "states": 45,
+    "journeys": 5,
+    "errors": [],
+    "violations": 0,
+    "incomplete": [
+      {
+        "profile": "320",
+        "state": "m06-comparacao",
+        "items": [
+          {
+            "id": "color-contrast",
+            "targets": [
+              [
+                ".skip-link"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "u02": {
+    "states": 8,
+    "errors": [],
+    "directed": [
+      {
+        "state": "m03-preparacao",
+        "ratio": 11.865535301875378,
+        "outlinePage": 7.166582181403303
+      },
+      {
+        "state": "m03-previa",
+        "ratio": 11.865535301875378,
+        "outlinePage": 7.166582181403303
+      },
+      {
+        "state": "m04-anexo-indevido",
+        "ratio": 11.865535301875378,
+        "outlinePage": 7.166582181403303
+      }
+    ]
+  },
+  "reader": "não verificado",
+  "physicalDevices": "não verificado"
+}

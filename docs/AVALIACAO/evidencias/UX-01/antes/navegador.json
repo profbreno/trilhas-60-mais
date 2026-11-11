@@ -1,0 +1,2413 @@
+{
+  "phase": "antes",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "records": [
+    {
+      "name": "percurso-320-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "pageHeight": 12866,
+        "firstMission": {
+          "top": 2240.078125,
+          "bottom": 2458.515625,
+          "height": 218.4375,
+          "width": 269
+        },
+        "wordsBeforeFirst": 703,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": -150,
+            "bottom": -93.3125,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 269
+          },
+          {
+            "label": "Percurso",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 71.890625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 169.90625
+          },
+          {
+            "label": "Ir à primeira missão disponível",
+            "top": 1190.296875,
+            "bottom": 1280.453125,
+            "height": 90.15625,
+            "width": 269
+          },
+          {
+            "label": "Trilha 01: Primeiros Passos no Mundo Digital",
+            "top": 1293.953125,
+            "bottom": 1382.328125,
+            "height": 88.375,
+            "width": 269
+          },
+          {
+            "label": "Trilha 02: Segurança e Pensamento Crítico",
+            "top": 1395.828125,
+            "bottom": 1484.203125,
+            "height": 88.375,
+            "width": 269
+          },
+          {
+            "label": "Trilha 03: Cidadania e Autonomia Digital",
+            "top": 1497.703125,
+            "bottom": 1586.078125,
+            "height": 88.375,
+            "width": 269
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 1631.078125,
+            "bottom": 1691.546875,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "M01Encontrar os caminhos da telaA — Aprendizagem guiadaDisponível · Abrir micromissão",
+            "top": 2240.078125,
+            "bottom": 2458.515625,
+            "height": 218.4375,
+            "width": 269
+          },
+          {
+            "label": "M02Preparar a tela para ler um conviteB — AplicaçãoDisponível · Abrir micromissão",
+            "top": 2485.515625,
+            "bottom": 2710.46875,
+            "height": 224.953125,
+            "width": 269
+          },
+          {
+            "label": "M03Preparar uma mensagem para o grupoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 2888.078125,
+            "bottom": 3139.765625,
+            "height": 251.6875,
+            "width": 269
+          },
+          {
+            "label": "M04Compartilhar o arquivo certo com a pessoa certaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3166.765625,
+            "bottom": 3424.96875,
+            "height": 258.203125,
+            "width": 269
+          },
+          {
+            "label": "M05Transformar uma dúvida em buscaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3602.578125,
+            "bottom": 3821.015625,
+            "height": 218.4375,
+            "width": 269
+          },
+          {
+            "label": "M06Encontrar uma atividade no bairroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3848.015625,
+            "bottom": 4072.96875,
+            "height": 224.953125,
+            "width": 269
+          },
+          {
+            "label": "M07Investigar de onde veio a notíciaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 4647.828125,
+            "bottom": 4899.515625,
+            "height": 251.6875,
+            "width": 269
+          },
+          {
+            "label": "M08Decidir antes de compartilharB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 4926.515625,
+            "bottom": 5118.21875,
+            "height": 191.703125,
+            "width": 269
+          },
+          {
+            "label": "M09Cuidar da senha e do código de acessoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5295.828125,
+            "bottom": 5547.515625,
+            "height": 251.6875,
+            "width": 269
+          },
+          {
+            "label": "M10Escolher o que pode ser compartilhadoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5574.515625,
+            "bottom": 5799.46875,
+            "height": 224.953125,
+            "width": 269
+          },
+          {
+            "label": "M11Interromper um pedido suspeitoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5977.078125,
+            "bottom": 6195.515625,
+            "height": 218.4375,
+            "width": 269
+          },
+          {
+            "label": "M12Conferir um pedido de Pix com segurançaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 6222.515625,
+            "bottom": 6447.46875,
+            "height": 224.953125,
+            "width": 269
+          },
+          {
+            "label": "M13Examinar um endereço antes de abrirA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 6625.078125,
+            "bottom": 6876.765625,
+            "height": 251.6875,
+            "width": 269
+          },
+          {
+            "label": "M14Sair de uma mensagem e buscar o caminho seguroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 6903.765625,
+            "bottom": 7161.96875,
+            "height": 258.203125,
+            "width": 269
+          },
+          {
+            "label": "M15Encontrar a informação de um serviço essencialA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 7707.140625,
+            "bottom": 7992.078125,
+            "height": 284.9375,
+            "width": 269
+          },
+          {
+            "label": "M16Planejar um atendimento de saúde simuladoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 8019.078125,
+            "bottom": 8244.03125,
+            "height": 224.953125,
+            "width": 269
+          },
+          {
+            "label": "M17Escolher um aplicativo para uma necessidadeA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 8421.640625,
+            "bottom": 8673.328125,
+            "height": 251.6875,
+            "width": 269
+          },
+          {
+            "label": "M18Revisar permissões em uma situação práticaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 8700.328125,
+            "bottom": 8958.53125,
+            "height": 258.203125,
+            "width": 269
+          },
+          {
+            "label": "M19Pedir ajuda sem compartilhar segredosA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 9136.140625,
+            "bottom": 9387.828125,
+            "height": 251.6875,
+            "width": 269
+          },
+          {
+            "label": "M20Construir e experimentar um plano de autonomiaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 9414.828125,
+            "bottom": 9673.03125,
+            "height": 258.203125,
+            "width": 269
+          },
+          {
+            "label": "Experimentar as atividades da U01",
+            "top": 10044.453125,
+            "bottom": 10134.609375,
+            "height": 90.15625,
+            "width": 269
+          },
+          {
+            "label": "Conhecer a trilha: Primeiros Passos no Mundo Digital",
+            "top": 10562.203125,
+            "bottom": 10614.203125,
+            "height": 52,
+            "width": 213
+          },
+          {
+            "label": "Conhecer a trilha: Segurança e Pensamento Crítico",
+            "top": 11083.296875,
+            "bottom": 11135.296875,
+            "height": 52,
+            "width": 213
+          },
+          {
+            "label": "Conhecer a trilha: Cidadania e Autonomia Digital",
+            "top": 11574.703125,
+            "bottom": 11626.703125,
+            "height": 52,
+            "width": 213
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 12778.328125,
+            "bottom": 12826.328125,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": null,
+        "firstAction": null,
+        "focus": "Ir para o conteúdo principalPercursoIr às micromissõesAPRENDIZAGEM DIGITAL PARA PESSOAS 60+Seu percu",
+        "outline": "rgb(32, 61, 64) none 3px"
+      }
+    },
+    {
+      "name": "m01-320-pratica",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "pageHeight": 3316,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": 964,
+            "bottom": 1020.6875,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 269
+          },
+          {
+            "label": "Percurso",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 71.890625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 169.90625
+          },
+          {
+            "label": "Início",
+            "top": 221.140625,
+            "bottom": 269.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 272.734375,
+            "bottom": 320.734375,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 324.328125,
+            "bottom": 372.328125,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 697.359375,
+            "bottom": 745.359375,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Recados do bairro",
+            "top": 1816.3125,
+            "bottom": 1906.46875,
+            "height": 90.15625,
+            "width": 229
+          },
+          {
+            "label": "Calendário",
+            "top": 1919.96875,
+            "bottom": 1980.4375,
+            "height": 60.46875,
+            "width": 229
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 2045.4375,
+            "bottom": 2105.90625,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 2132.90625,
+            "bottom": 2193.375,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 2206.875,
+            "bottom": 2267.34375,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 2280.84375,
+            "bottom": 2341.3125,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 2635.921875,
+            "bottom": 2683.921875,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 2683.921875,
+            "bottom": 2761.296875,
+            "height": 77.375,
+            "width": 242
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 3228.609375,
+            "bottom": 3276.609375,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 8,
+        "firstAction": {
+          "top": 1816.3125,
+          "bottom": 1906.46875,
+          "height": 90.15625,
+          "width": 229
+        },
+        "focus": "Encontre os recados",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "m02-320-ajustes",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "pageHeight": 5013,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": 551,
+            "bottom": 607.6875,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 269
+          },
+          {
+            "label": "Percurso",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 71.890625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 169.90625
+          },
+          {
+            "label": "Início",
+            "top": 221.140625,
+            "bottom": 269.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 272.734375,
+            "bottom": 320.734375,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 324.328125,
+            "bottom": 372.328125,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 697.359375,
+            "bottom": 745.359375,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Padrão",
+            "top": 2441.953125,
+            "bottom": 2500.640625,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Texto ampliado",
+            "top": 2509.640625,
+            "bottom": 2568.328125,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Modo de leitura",
+            "top": 2577.328125,
+            "bottom": 2636.015625,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Brilho padrão",
+            "top": 2738.703125,
+            "bottom": 2797.390625,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Brilho confortável",
+            "top": 2806.390625,
+            "bottom": 2865.078125,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Silenciado",
+            "top": 2967.765625,
+            "bottom": 3026.453125,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Volume audível",
+            "top": 3035.453125,
+            "bottom": 3094.140625,
+            "height": 58.6875,
+            "width": 231
+          },
+          {
+            "label": "Aplicar ajustes e ler o convite",
+            "top": 3324.578125,
+            "bottom": 3414.734375,
+            "height": 90.15625,
+            "width": 269
+          },
+          {
+            "label": "Desfazer ajustes da prévia",
+            "top": 3441.734375,
+            "bottom": 3502.203125,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 3742.640625,
+            "bottom": 3803.109375,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 3830.109375,
+            "bottom": 3890.578125,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 3904.078125,
+            "bottom": 3964.546875,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 3978.046875,
+            "bottom": 4038.515625,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 4333.125,
+            "bottom": 4381.125,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 4381.125,
+            "bottom": 4458.5,
+            "height": 77.375,
+            "width": 242
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 4925.8125,
+            "bottom": 4973.8125,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 15,
+        "firstAction": {
+          "top": 3324.578125,
+          "bottom": 3414.734375,
+          "height": 90.15625,
+          "width": 269
+        },
+        "focus": "Experimente uma apresentação",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "percurso-360-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 360,
+        "clientWidth": 345,
+        "scrollWidth": 345,
+        "pageHeight": 11778,
+        "firstMission": {
+          "top": 2083.53125,
+          "bottom": 2275.234375,
+          "height": 191.703125,
+          "width": 309
+        },
+        "wordsBeforeFirst": 703,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": -150,
+            "bottom": -93.3125,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 309
+          },
+          {
+            "label": "Percurso",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 71.890625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 169.90625
+          },
+          {
+            "label": "Ir à primeira missão disponível",
+            "top": 1130.921875,
+            "bottom": 1191.390625,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Trilha 01: Primeiros Passos no Mundo Digital",
+            "top": 1204.890625,
+            "bottom": 1293.265625,
+            "height": 88.375,
+            "width": 309
+          },
+          {
+            "label": "Trilha 02: Segurança e Pensamento Crítico",
+            "top": 1306.765625,
+            "bottom": 1395.140625,
+            "height": 88.375,
+            "width": 309
+          },
+          {
+            "label": "Trilha 03: Cidadania e Autonomia Digital",
+            "top": 1408.640625,
+            "bottom": 1497.015625,
+            "height": 88.375,
+            "width": 309
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 1542.015625,
+            "bottom": 1602.484375,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "M01Encontrar os caminhos da telaA — Aprendizagem guiadaDisponível · Abrir micromissão",
+            "top": 2083.53125,
+            "bottom": 2275.234375,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M02Preparar a tela para ler um conviteB — AplicaçãoDisponível · Abrir micromissão",
+            "top": 2302.234375,
+            "bottom": 2493.9375,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M03Preparar uma mensagem para o grupoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 2671.546875,
+            "bottom": 2896.5,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M04Compartilhar o arquivo certo com a pessoa certaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 2923.5,
+            "bottom": 3148.453125,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M05Transformar uma dúvida em buscaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3326.0625,
+            "bottom": 3517.765625,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M06Encontrar uma atividade no bairroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3544.765625,
+            "bottom": 3736.46875,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M07Investigar de onde veio a notíciaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 4281.640625,
+            "bottom": 4473.34375,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M08Decidir antes de compartilharB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 4500.34375,
+            "bottom": 4692.046875,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M09Cuidar da senha e do código de acessoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 4869.65625,
+            "bottom": 5061.359375,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M10Escolher o que pode ser compartilhadoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5088.359375,
+            "bottom": 5280.0625,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M11Interromper um pedido suspeitoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5457.671875,
+            "bottom": 5649.375,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M12Conferir um pedido de Pix com segurançaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5676.375,
+            "bottom": 5868.078125,
+            "height": 191.703125,
+            "width": 309
+          },
+          {
+            "label": "M13Examinar um endereço antes de abrirA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 6045.6875,
+            "bottom": 6270.640625,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M14Sair de uma mensagem e buscar o caminho seguroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 6297.640625,
+            "bottom": 6522.59375,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M15Encontrar a informação de um serviço essencialA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 7030.640625,
+            "bottom": 7255.59375,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M16Planejar um atendimento de saúde simuladoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 7282.59375,
+            "bottom": 7507.546875,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M17Escolher um aplicativo para uma necessidadeA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 7685.15625,
+            "bottom": 7910.109375,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M18Revisar permissões em uma situação práticaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 7937.109375,
+            "bottom": 8162.0625,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M19Pedir ajuda sem compartilhar segredosA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 8339.671875,
+            "bottom": 8564.625,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "M20Construir e experimentar um plano de autonomiaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 8591.625,
+            "bottom": 8816.578125,
+            "height": 224.953125,
+            "width": 309
+          },
+          {
+            "label": "Experimentar as atividades da U01",
+            "top": 9121.1875,
+            "bottom": 9211.34375,
+            "height": 90.15625,
+            "width": 309
+          },
+          {
+            "label": "Conhecer a trilha: Primeiros Passos no Mundo Digital",
+            "top": 9611.84375,
+            "bottom": 9663.84375,
+            "height": 52,
+            "width": 253
+          },
+          {
+            "label": "Conhecer a trilha: Segurança e Pensamento Crítico",
+            "top": 10076.15625,
+            "bottom": 10128.15625,
+            "height": 52,
+            "width": 253
+          },
+          {
+            "label": "Conhecer a trilha: Cidadania e Autonomia Digital",
+            "top": 10540.46875,
+            "bottom": 10592.46875,
+            "height": 52,
+            "width": 253
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 11690.640625,
+            "bottom": 11738.640625,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": null,
+        "firstAction": null,
+        "focus": "Ir para o conteúdo principalPercursoIr às micromissõesAPRENDIZAGEM DIGITAL PARA PESSOAS 60+Seu percu",
+        "outline": "rgb(32, 61, 64) none 3px"
+      }
+    },
+    {
+      "name": "m01-360-pratica",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 360,
+        "clientWidth": 345,
+        "scrollWidth": 345,
+        "pageHeight": 2986,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": 771,
+            "bottom": 827.6875,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 309
+          },
+          {
+            "label": "Percurso",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 71.890625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 169.90625
+          },
+          {
+            "label": "Início",
+            "top": 221.140625,
+            "bottom": 269.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 272.734375,
+            "bottom": 320.734375,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 324.328125,
+            "bottom": 372.328125,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 625.625,
+            "bottom": 673.625,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Recados do bairro",
+            "top": 1595.46875,
+            "bottom": 1655.9375,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Calendário",
+            "top": 1669.4375,
+            "bottom": 1729.90625,
+            "height": 60.46875,
+            "width": 269
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 1794.90625,
+            "bottom": 1855.375,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 1882.375,
+            "bottom": 1942.84375,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 1956.34375,
+            "bottom": 2016.8125,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 2030.3125,
+            "bottom": 2090.78125,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 2358.65625,
+            "bottom": 2406.65625,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 2406.65625,
+            "bottom": 2454.65625,
+            "height": 48,
+            "width": 244.125
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 2898.203125,
+            "bottom": 2946.203125,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 8,
+        "firstAction": {
+          "top": 1595.46875,
+          "bottom": 1655.9375,
+          "height": 60.46875,
+          "width": 269
+        },
+        "focus": "Encontre os recados",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "m02-360-ajustes",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 360,
+        "clientWidth": 345,
+        "scrollWidth": 345,
+        "pageHeight": 4779,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": 491,
+            "bottom": 547.6875,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 309
+          },
+          {
+            "label": "Percurso",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 71.890625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 127.140625,
+            "bottom": 175.140625,
+            "height": 48,
+            "width": 169.90625
+          },
+          {
+            "label": "Início",
+            "top": 221.140625,
+            "bottom": 269.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 272.734375,
+            "bottom": 320.734375,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 324.328125,
+            "bottom": 372.328125,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 697.359375,
+            "bottom": 745.359375,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Padrão",
+            "top": 2346.953125,
+            "bottom": 2405.640625,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Texto ampliado",
+            "top": 2414.640625,
+            "bottom": 2473.328125,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Modo de leitura",
+            "top": 2482.328125,
+            "bottom": 2541.015625,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Brilho padrão",
+            "top": 2643.703125,
+            "bottom": 2702.390625,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Brilho confortável",
+            "top": 2711.390625,
+            "bottom": 2770.078125,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Silenciado",
+            "top": 2872.765625,
+            "bottom": 2931.453125,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Volume audível",
+            "top": 2940.453125,
+            "bottom": 2999.140625,
+            "height": 58.6875,
+            "width": 271
+          },
+          {
+            "label": "Aplicar ajustes e ler o convite",
+            "top": 3199.890625,
+            "bottom": 3260.359375,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Desfazer ajustes da prévia",
+            "top": 3287.359375,
+            "bottom": 3347.828125,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 3588.265625,
+            "bottom": 3648.734375,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 3675.734375,
+            "bottom": 3736.203125,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 3749.703125,
+            "bottom": 3810.171875,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 3823.671875,
+            "bottom": 3884.140625,
+            "height": 60.46875,
+            "width": 309
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 4152.015625,
+            "bottom": 4200.015625,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 4200.015625,
+            "bottom": 4248.015625,
+            "height": 48,
+            "width": 244.125
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 4691.5625,
+            "bottom": 4739.5625,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 15,
+        "firstAction": {
+          "top": 3199.890625,
+          "bottom": 3260.359375,
+          "height": 60.46875,
+          "width": 309
+        },
+        "focus": "Experimente uma apresentação",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "percurso-768-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 768,
+        "clientWidth": 753,
+        "scrollWidth": 753,
+        "pageHeight": 8588,
+        "firstMission": {
+          "top": 1434.796875,
+          "bottom": 1566.515625,
+          "height": 131.71875,
+          "width": 699
+        },
+        "wordsBeforeFirst": 703,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": -150,
+            "bottom": -93.3125,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 162
+          },
+          {
+            "label": "Percurso",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 81.015625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 189.359375
+          },
+          {
+            "label": "Ir à primeira missão disponível",
+            "top": 752.75,
+            "bottom": 813.21875,
+            "height": 60.46875,
+            "width": 304.21875
+          },
+          {
+            "label": "Trilha 01: Primeiros Passos no Mundo Digital",
+            "top": 826.71875,
+            "bottom": 944.78125,
+            "height": 118.0625,
+            "width": 224
+          },
+          {
+            "label": "Trilha 02: Segurança e Pensamento Crítico",
+            "top": 826.71875,
+            "bottom": 944.78125,
+            "height": 118.0625,
+            "width": 224
+          },
+          {
+            "label": "Trilha 03: Cidadania e Autonomia Digital",
+            "top": 826.71875,
+            "bottom": 944.78125,
+            "height": 118.0625,
+            "width": 224
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 989.78125,
+            "bottom": 1050.25,
+            "height": 60.46875,
+            "width": 245.75
+          },
+          {
+            "label": "M01Encontrar os caminhos da telaA — Aprendizagem guiadaDisponível · Abrir micromissão",
+            "top": 1434.796875,
+            "bottom": 1566.515625,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M02Preparar a tela para ler um conviteB — AplicaçãoDisponível · Abrir micromissão",
+            "top": 1593.515625,
+            "bottom": 1725.234375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M03Preparar uma mensagem para o grupoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 1902.84375,
+            "bottom": 2034.5625,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M04Compartilhar o arquivo certo com a pessoa certaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 2061.5625,
+            "bottom": 2193.28125,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M05Transformar uma dúvida em buscaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 2370.890625,
+            "bottom": 2502.609375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M06Encontrar uma atividade no bairroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 2529.609375,
+            "bottom": 2661.328125,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M07Investigar de onde veio a notíciaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3072.875,
+            "bottom": 3204.59375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M08Decidir antes de compartilharB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3231.59375,
+            "bottom": 3363.3125,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M09Cuidar da senha e do código de acessoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3540.921875,
+            "bottom": 3672.640625,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M10Escolher o que pode ser compartilhadoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3699.640625,
+            "bottom": 3831.359375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M11Interromper um pedido suspeitoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 4008.96875,
+            "bottom": 4140.6875,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M12Conferir um pedido de Pix com segurançaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 4167.6875,
+            "bottom": 4299.40625,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M13Examinar um endereço antes de abrirA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 4477.015625,
+            "bottom": 4608.734375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M14Sair de uma mensagem e buscar o caminho seguroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 4635.734375,
+            "bottom": 4767.453125,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M15Encontrar a informação de um serviço essencialA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5179,
+            "bottom": 5310.71875,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M16Planejar um atendimento de saúde simuladoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5337.71875,
+            "bottom": 5469.4375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M17Escolher um aplicativo para uma necessidadeA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5647.046875,
+            "bottom": 5778.765625,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M18Revisar permissões em uma situação práticaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5805.765625,
+            "bottom": 5937.484375,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M19Pedir ajuda sem compartilhar segredosA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 6115.09375,
+            "bottom": 6246.8125,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "M20Construir e experimentar um plano de autonomiaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 6273.8125,
+            "bottom": 6405.53125,
+            "height": 131.71875,
+            "width": 699
+          },
+          {
+            "label": "Experimentar as atividades da U01",
+            "top": 6643.328125,
+            "bottom": 6703.796875,
+            "height": 60.46875,
+            "width": 337.265625
+          },
+          {
+            "label": "Conhecer a trilha: Primeiros Passos no Mundo Digital",
+            "top": 7014.5625,
+            "bottom": 7066.5625,
+            "height": 52,
+            "width": 643
+          },
+          {
+            "label": "Conhecer a trilha: Segurança e Pensamento Crítico",
+            "top": 7389.140625,
+            "bottom": 7441.140625,
+            "height": 52,
+            "width": 643
+          },
+          {
+            "label": "Conhecer a trilha: Cidadania e Autonomia Digital",
+            "top": 7763.71875,
+            "bottom": 7815.71875,
+            "height": 52,
+            "width": 643
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 8428.46875,
+            "bottom": 8476.46875,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": null,
+        "firstAction": null,
+        "focus": "Ir para o conteúdo principalPercursoIr às micromissõesAPRENDIZAGEM DIGITAL PARA PESSOAS 60+Seu percu",
+        "outline": "rgb(32, 61, 64) none 3px"
+      }
+    },
+    {
+      "name": "m01-768-pratica",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 768,
+        "clientWidth": 753,
+        "scrollWidth": 753,
+        "pageHeight": 2118,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": -130,
+            "bottom": -73.3125,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 162
+          },
+          {
+            "label": "Percurso",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 81.015625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 189.359375
+          },
+          {
+            "label": "Início",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 384.703125,
+            "bottom": 432.703125,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Recados do bairro",
+            "top": 1182.4375,
+            "bottom": 1242.90625,
+            "height": 60.46875,
+            "width": 313.75
+          },
+          {
+            "label": "Calendário",
+            "top": 1182.4375,
+            "bottom": 1242.90625,
+            "height": 60.46875,
+            "width": 313.75
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 1316.90625,
+            "bottom": 1377.375,
+            "height": 60.46875,
+            "width": 245.75
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 1404.375,
+            "bottom": 1464.84375,
+            "height": 60.46875,
+            "width": 342.75
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 1404.375,
+            "bottom": 1464.84375,
+            "height": 60.46875,
+            "width": 342.75
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 1478.34375,
+            "bottom": 1538.8125,
+            "height": 60.46875,
+            "width": 699
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 1699.75,
+            "bottom": 1747.75,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 1699.75,
+            "bottom": 1747.75,
+            "height": 48,
+            "width": 244.125
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 1958.25,
+            "bottom": 2006.25,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 8,
+        "firstAction": {
+          "top": 1182.4375,
+          "bottom": 1242.90625,
+          "height": 60.46875,
+          "width": 313.75
+        },
+        "focus": "Encontre os recados",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "m02-768-ajustes",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 768,
+        "clientWidth": 753,
+        "scrollWidth": 753,
+        "pageHeight": 3496,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": 41,
+            "bottom": 97.6875,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 162
+          },
+          {
+            "label": "Percurso",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 81.015625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 189.359375
+          },
+          {
+            "label": "Início",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 384.703125,
+            "bottom": 432.703125,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Padrão",
+            "top": 1601.796875,
+            "bottom": 1660.484375,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Texto ampliado",
+            "top": 1669.484375,
+            "bottom": 1728.171875,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Modo de leitura",
+            "top": 1737.171875,
+            "bottom": 1795.859375,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Brilho padrão",
+            "top": 1898.546875,
+            "bottom": 1957.234375,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Brilho confortável",
+            "top": 1966.234375,
+            "bottom": 2024.921875,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Silenciado",
+            "top": 2127.609375,
+            "bottom": 2186.296875,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Volume audível",
+            "top": 2195.296875,
+            "bottom": 2253.984375,
+            "height": 58.6875,
+            "width": 661
+          },
+          {
+            "label": "Aplicar ajustes e ler o convite",
+            "top": 2395.359375,
+            "bottom": 2455.828125,
+            "height": 60.46875,
+            "width": 699
+          },
+          {
+            "label": "Desfazer ajustes da prévia",
+            "top": 2482.828125,
+            "bottom": 2543.296875,
+            "height": 60.46875,
+            "width": 264.703125
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 2694.671875,
+            "bottom": 2755.140625,
+            "height": 60.46875,
+            "width": 245.75
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 2782.140625,
+            "bottom": 2842.609375,
+            "height": 60.46875,
+            "width": 342.75
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 2782.140625,
+            "bottom": 2842.609375,
+            "height": 60.46875,
+            "width": 342.75
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 2856.109375,
+            "bottom": 2916.578125,
+            "height": 60.46875,
+            "width": 699
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 3077.515625,
+            "bottom": 3125.515625,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 3077.515625,
+            "bottom": 3125.515625,
+            "height": 48,
+            "width": 244.125
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 3336.015625,
+            "bottom": 3384.015625,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 15,
+        "firstAction": {
+          "top": 2395.359375,
+          "bottom": 2455.828125,
+          "height": 60.46875,
+          "width": 699
+        },
+        "focus": "Experimente uma apresentação",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "percurso-1280-inicio",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1265,
+        "scrollWidth": 1265,
+        "pageHeight": 7860,
+        "firstMission": {
+          "top": 1401,
+          "bottom": 1532.71875,
+          "height": 131.71875,
+          "width": 760
+        },
+        "wordsBeforeFirst": 703,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": -150,
+            "bottom": -93.3125,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 162
+          },
+          {
+            "label": "Percurso",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 81.015625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 189.359375
+          },
+          {
+            "label": "Ir à primeira missão disponível",
+            "top": 742.5625,
+            "bottom": 803.03125,
+            "height": 60.46875,
+            "width": 304.21875
+          },
+          {
+            "label": "Trilha 01: Primeiros Passos no Mundo Digital",
+            "top": 816.53125,
+            "bottom": 904.90625,
+            "height": 88.375,
+            "width": 307.65625
+          },
+          {
+            "label": "Trilha 02: Segurança e Pensamento Crítico",
+            "top": 816.53125,
+            "bottom": 904.90625,
+            "height": 88.375,
+            "width": 307.671875
+          },
+          {
+            "label": "Trilha 03: Cidadania e Autonomia Digital",
+            "top": 816.53125,
+            "bottom": 904.90625,
+            "height": 88.375,
+            "width": 307.65625
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 949.90625,
+            "bottom": 1010.375,
+            "height": 60.46875,
+            "width": 245.75
+          },
+          {
+            "label": "M01Encontrar os caminhos da telaA — Aprendizagem guiadaDisponível · Abrir micromissão",
+            "top": 1401,
+            "bottom": 1532.71875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M02Preparar a tela para ler um conviteB — AplicaçãoDisponível · Abrir micromissão",
+            "top": 1559.71875,
+            "bottom": 1691.4375,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M03Preparar uma mensagem para o grupoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 1869.046875,
+            "bottom": 2000.765625,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M04Compartilhar o arquivo certo com a pessoa certaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 2027.765625,
+            "bottom": 2159.484375,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M05Transformar uma dúvida em buscaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 2337.09375,
+            "bottom": 2468.8125,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M06Encontrar uma atividade no bairroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 2495.8125,
+            "bottom": 2627.53125,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M07Investigar de onde veio a notíciaA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3045.15625,
+            "bottom": 3176.875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M08Decidir antes de compartilharB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3203.875,
+            "bottom": 3335.59375,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M09Cuidar da senha e do código de acessoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3513.203125,
+            "bottom": 3644.921875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M10Escolher o que pode ser compartilhadoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 3671.921875,
+            "bottom": 3803.640625,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M11Interromper um pedido suspeitoA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 3981.25,
+            "bottom": 4112.96875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M12Conferir um pedido de Pix com segurançaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 4139.96875,
+            "bottom": 4271.6875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M13Examinar um endereço antes de abrirA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 4449.296875,
+            "bottom": 4581.015625,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M14Sair de uma mensagem e buscar o caminho seguroB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 4608.015625,
+            "bottom": 4739.734375,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M15Encontrar a informação de um serviço essencialA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5157.359375,
+            "bottom": 5289.078125,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M16Planejar um atendimento de saúde simuladoB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5316.078125,
+            "bottom": 5447.796875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M17Escolher um aplicativo para uma necessidadeA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 5625.40625,
+            "bottom": 5757.125,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M18Revisar permissões em uma situação práticaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 5784.125,
+            "bottom": 5915.84375,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M19Pedir ajuda sem compartilhar segredosA — Aprendizagem guiadaEm desenvolvimento · Ver proposta",
+            "top": 6093.453125,
+            "bottom": 6225.171875,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "M20Construir e experimentar um plano de autonomiaB — AplicaçãoEm desenvolvimento · Ver proposta",
+            "top": 6252.171875,
+            "bottom": 6383.890625,
+            "height": 131.71875,
+            "width": 760
+          },
+          {
+            "label": "Experimentar as atividades da U01",
+            "top": 6627.765625,
+            "bottom": 6688.234375,
+            "height": 60.46875,
+            "width": 337.265625
+          },
+          {
+            "label": "Conhecer a trilha: Primeiros Passos no Mundo Digital",
+            "top": 7059.046875,
+            "bottom": 7111.046875,
+            "height": 52,
+            "width": 319.328125
+          },
+          {
+            "label": "Conhecer a trilha: Segurança e Pensamento Crítico",
+            "top": 7059.046875,
+            "bottom": 7111.046875,
+            "height": 52,
+            "width": 319.328125
+          },
+          {
+            "label": "Conhecer a trilha: Cidadania e Autonomia Digital",
+            "top": 7059.046875,
+            "bottom": 7111.046875,
+            "height": 52,
+            "width": 319.34375
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 7700.1875,
+            "bottom": 7748.1875,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": null,
+        "firstAction": null,
+        "focus": "Ir para o conteúdo principalPercursoIr às micromissõesAPRENDIZAGEM DIGITAL PARA PESSOAS 60+Seu percu",
+        "outline": "rgb(32, 61, 64) none 3px"
+      }
+    },
+    {
+      "name": "m01-1280-pratica",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1265,
+        "scrollWidth": 1265,
+        "pageHeight": 2011,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": -150,
+            "bottom": -93.3125,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 162
+          },
+          {
+            "label": "Percurso",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 81.015625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 189.359375
+          },
+          {
+            "label": "Início",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 374.875,
+            "bottom": 422.875,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Recados do bairro",
+            "top": 1149,
+            "bottom": 1209.46875,
+            "height": 60.46875,
+            "width": 439.25
+          },
+          {
+            "label": "Calendário",
+            "top": 1149,
+            "bottom": 1209.46875,
+            "height": 60.46875,
+            "width": 439.25
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 1283.46875,
+            "bottom": 1343.9375,
+            "height": 60.46875,
+            "width": 245.75
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 1370.9375,
+            "bottom": 1431.40625,
+            "height": 60.46875,
+            "width": 307.65625
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 1370.9375,
+            "bottom": 1431.40625,
+            "height": 60.46875,
+            "width": 307.671875
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 1370.9375,
+            "bottom": 1431.40625,
+            "height": 60.46875,
+            "width": 307.671875
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 1592.34375,
+            "bottom": 1640.34375,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 1592.34375,
+            "bottom": 1640.34375,
+            "height": 48,
+            "width": 244.125
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 1850.84375,
+            "bottom": 1898.84375,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 8,
+        "firstAction": {
+          "top": 1149,
+          "bottom": 1209.46875,
+          "height": 60.46875,
+          "width": 439.25
+        },
+        "focus": "Encontre os recados",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    },
+    {
+      "name": "m02-1280-ajustes",
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "layout": {
+        "width": 1280,
+        "clientWidth": 1265,
+        "scrollWidth": 1265,
+        "pageHeight": 3294,
+        "firstMission": null,
+        "wordsBeforeFirst": null,
+        "visibleControls": [
+          {
+            "label": "Ir para o conteúdo principal",
+            "top": 5,
+            "bottom": 61.6875,
+            "height": 56.6875,
+            "width": 271.453125
+          },
+          {
+            "top": 18,
+            "bottom": 109.140625,
+            "height": 91.140625,
+            "width": 162
+          },
+          {
+            "label": "Percurso",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 81.015625
+          },
+          {
+            "label": "Ir às micromissões",
+            "top": 39.5625,
+            "bottom": 87.5625,
+            "height": 48,
+            "width": 189.359375
+          },
+          {
+            "label": "Início",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 48
+          },
+          {
+            "label": "Primeiros Passos no Mundo Digital",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 234.78125
+          },
+          {
+            "label": "Operação básica do celular",
+            "top": 155.140625,
+            "bottom": 203.140625,
+            "height": 48,
+            "width": 182.078125
+          },
+          {
+            "label": "Voltar ao percurso",
+            "top": 374.875,
+            "bottom": 422.875,
+            "height": 48,
+            "width": 182.734375
+          },
+          {
+            "label": "Padrão",
+            "top": 1532.734375,
+            "bottom": 1591.421875,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Texto ampliado",
+            "top": 1600.421875,
+            "bottom": 1659.109375,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Modo de leitura",
+            "top": 1668.109375,
+            "bottom": 1726.796875,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Brilho padrão",
+            "top": 1829.484375,
+            "bottom": 1888.171875,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Brilho confortável",
+            "top": 1897.171875,
+            "bottom": 1955.859375,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Silenciado",
+            "top": 2058.546875,
+            "bottom": 2117.234375,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Volume audível",
+            "top": 2126.234375,
+            "bottom": 2184.921875,
+            "height": 58.6875,
+            "width": 912
+          },
+          {
+            "label": "Aplicar ajustes e ler o convite",
+            "top": 2296.609375,
+            "bottom": 2357.078125,
+            "height": 60.46875,
+            "width": 950
+          },
+          {
+            "label": "Desfazer ajustes da prévia",
+            "top": 2384.078125,
+            "bottom": 2444.546875,
+            "height": 60.46875,
+            "width": 264.703125
+          },
+          {
+            "label": "Ajuda nesta página",
+            "top": 2566.234375,
+            "bottom": 2626.703125,
+            "height": 60.46875,
+            "width": 245.75
+          },
+          {
+            "label": "Voltar à etapa anterior",
+            "top": 2653.703125,
+            "bottom": 2714.171875,
+            "height": 60.46875,
+            "width": 307.65625
+          },
+          {
+            "label": "Interromper a prática",
+            "top": 2653.703125,
+            "bottom": 2714.171875,
+            "height": 60.46875,
+            "width": 307.671875
+          },
+          {
+            "label": "Reiniciar a micromissão",
+            "top": 2653.703125,
+            "bottom": 2714.171875,
+            "height": 60.46875,
+            "width": 307.671875
+          },
+          {
+            "label": "Voltar à unidade",
+            "top": 2875.109375,
+            "bottom": 2923.109375,
+            "height": 48,
+            "width": 167.484375
+          },
+          {
+            "label": "Voltar ao percurso da U01",
+            "top": 2875.109375,
+            "bottom": 2923.109375,
+            "height": 48,
+            "width": 244.125
+          },
+          {
+            "label": "Sobre este projeto",
+            "top": 3133.609375,
+            "bottom": 3181.609375,
+            "height": 48,
+            "width": 139.671875
+          }
+        ],
+        "missionControls": 15,
+        "firstAction": {
+          "top": 2296.609375,
+          "bottom": 2357.078125,
+          "height": 60.46875,
+          "width": 950
+        },
+        "focus": "Experimente uma apresentação",
+        "outline": "rgb(132, 67, 14) solid 3px"
+      }
+    }
+  ],
+  "zoom200": "Não verificado: viewport estreito não equivale a zoom real."
+}

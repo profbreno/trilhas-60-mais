@@ -1,0 +1,35 @@
+{
+  "hashes": {
+    "src/data/curriculum.ts": {
+      "previous": "4b116065a7eb3ec2e4b71ebc5cd97bcce37a1aaf8ea64dbcf63b487062c41dfd",
+      "current": "4b116065a7eb3ec2e4b71ebc5cd97bcce37a1aaf8ea64dbcf63b487062c41dfd"
+    },
+    "src/domain/missions/navigation.ts": {
+      "previous": "af28da616477122175bb652c71a146ff85abee114cad5a1cfec04487b22abe97",
+      "current": "af28da616477122175bb652c71a146ff85abee114cad5a1cfec04487b22abe97"
+    },
+    "src/domain/missions/reading.ts": {
+      "previous": "fb4f5009f345fcc6a2a1dd7d969168d6df8a5d4859cb5362389785e569c0b8fb",
+      "current": "fb4f5009f345fcc6a2a1dd7d969168d6df8a5d4859cb5362389785e569c0b8fb"
+    },
+    "src/domain/missions/communication.ts": {
+      "previous": "14b505e195c8975ced170f2b83d34cb3820bd0342ea62f222a406885e6fb4805",
+      "current": "14b505e195c8975ced170f2b83d34cb3820bd0342ea62f222a406885e6fb4805"
+    },
+    "public/brand/logo-trilhas60-principal.png": {
+      "previous": "5a9505e993ca29ac31d42130b9aa2145227bdcfd43f2e2ab0d7b75e1493d7c44",
+      "current": "5a9505e993ca29ac31d42130b9aa2145227bdcfd43f2e2ab0d7b75e1493d7c44"
+    },
+    "public/brand/logo-trilhas60-transparente.png": {
+      "previous": "f6bbaf6e78ec5b03560a524761e58ac6a6f2377770c8e690af0a28d6fff836f4",
+      "current": "f6bbaf6e78ec5b03560a524761e58ac6a6f2377770c8e690af0a28d6fff836f4"
+    }
+  },
+  "changed": [],
+  "tests": {
+    "previous": 225,
+    "added": 28,
+    "total": 253
+  },
+  "version": "0.1.0-dev"
+}

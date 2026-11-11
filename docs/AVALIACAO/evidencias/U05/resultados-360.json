@@ -1,0 +1,444 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.50",
+    "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.23"
+  },
+  "zooms": [
+    {
+      "profile": "360",
+      "setting": {
+        "success": true,
+        "fontSuccess": true,
+        "value": 1,
+        "nativeResize": {
+          "innerWidth": 512,
+          "innerHeight": 900,
+          "outerWidth": 534,
+          "outerHeight": 998,
+          "dpr": 1,
+          "scale": 1,
+          "root": "18px",
+          "clientWidth": 497,
+          "scrollWidth": 497
+        },
+        "viewportEmulation": {
+          "width": 360,
+          "height": 900
+        }
+      },
+      "page": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      }
+    }
+  ],
+  "records": [
+    {
+      "profile": "360",
+      "state": "m09-estrategias",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "INPUT",
+        "label": "",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 437.921875,
+        "bottom": 461.3125,
+        "left": 32.5,
+        "right": 55.890625
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-envio-bloqueado",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Tentar enviar código pela conversa — simulação",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 433.453125,
+        "bottom": 523.609375,
+        "left": 37,
+        "right": 308
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-acesso-protegido",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Usar código no acesso que iniciei",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 692.5,
+        "bottom": 782.65625,
+        "left": 37,
+        "right": 308
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-revisao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Confirmar proteção simulada",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 526.390625,
+        "bottom": 586.859375,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m09-conclusao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-rascunho",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Edite o convite de exemplo",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-editado",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "SECTION",
+        "label": "Prévia da publicaçãoSomente nesta simulação. Nada foi publicado.Título da oficinaOficina de leitura ",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 238.34375,
+        "bottom": 899.59375,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-publico",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "BUTTON",
+        "label": "Revisar decisões de proteção",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 595.15625,
+        "bottom": 655.625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-revisao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Revise suas escolhas",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 373.90625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    },
+    {
+      "profile": "360",
+      "state": "m10-conclusao",
+      "layout": {
+        "innerWidth": 360,
+        "innerHeight": 900,
+        "outerWidth": 534,
+        "outerHeight": 998,
+        "dpr": 1,
+        "scale": 1,
+        "root": "18px",
+        "clientWidth": 345,
+        "scrollWidth": 345
+      },
+      "focus": {
+        "tag": "H2",
+        "label": "Prática concluída nesta demonstração",
+        "outline": "rgb(132, 67, 14) solid 3px",
+        "top": 342.40625,
+        "bottom": 405.40625,
+        "left": 18,
+        "right": 327
+      },
+      "outside": [],
+      "clipping": [],
+      "skip": {
+        "focused": false,
+        "top": -74.6875,
+        "bottom": -18
+      },
+      "result": {
+        "violations": [],
+        "incomplete": []
+      },
+      "statusContraste": "aprovado",
+      "status": "aprovado"
+    }
+  ],
+  "journeys": [
+    {
+      "profile": "360",
+      "status": "aprovado",
+      "description": "Tab/Enter/Espaço/setas: M09 comparação, reuso, etapa adicional, código no acesso, envio bloqueado, recusa e revisão; M10 inspeção, retirar/recolocar, prévia, público, justificativa, confirmação, repetição e retorno U05."
+    }
+  ],
+  "errors": [],
+  "protectedFiles": {
+    "src/data/curriculum.ts": "4b116065a7eb3ec2e4b71ebc5cd97bcce37a1aaf8ea64dbcf63b487062c41dfd",
+    "src/data/demoMissions.ts": "4aee67e7e6c314d04ef2bf9f5eb117fd0213a700b8bfd586e6cba47c56966981",
+    "src/domain/missions/communication.test.ts": "976f1a393788c45519a118455dea6ae4cc4b9ad590c07db09067c4d70194e616",
+    "src/domain/missions/communication.ts": "14b505e195c8975ced170f2b83d34cb3820bd0342ea62f222a406885e6fb4805",
+    "src/domain/missions/execution.test.ts": "7ea75bc8475c176998a6ba27b28e410fca0459ad1985cae234faa404e301e0f6",
+    "src/domain/missions/execution.ts": "51dc1379c2d964ac6aea8c2ac06611c7311a253bd90ee16b9bfee163ef6ac3a0",
+    "src/domain/missions/informationCheck.test.ts": "3a9821b341ccfae8bd66c6fa0bcf5bda31294652e9a50d946e70769561ce4311",
+    "src/domain/missions/informationCheck.ts": "788ae55aa0af5613464e024f01d08a5289bc71c5d6701641aad0a6d030c10482",
+    "src/domain/missions/navigation.ts": "af28da616477122175bb652c71a146ff85abee114cad5a1cfec04487b22abe97",
+    "src/domain/missions/privacyDecision.test.ts": "bb5a7747baafbc40e9230dd14c101563f661a9cea04ff0dd6b8dbf9b44857337",
+    "src/domain/missions/privacyDecision.ts": "e5a4a5b3a1f719aabb460a518dc6cded55ab68211c951aed6c4053c53a6737a0",
+    "src/domain/missions/reading.ts": "fb4f5009f345fcc6a2a1dd7d969168d6df8a5d4859cb5362389785e569c0b8fb",
+    "src/domain/missions/search.test.ts": "2daeca9ff942703beeadca04ed7776ecacb6153caf2b5e9962458099195de634",
+    "src/domain/missions/search.ts": "16f625f31cd733132f4e831d469c6c7080e5815b6d05e5f6de8ca4d54a2fe42e",
+    "src/domain/missions/types.ts": "95eaceb9b1af2b29d01d18b7e3c9bd62aa5632e20c91f9b2b6fd8746aa0456e8",
+    "public/brand/logo-trilhas60-principal.png": "5a9505e993ca29ac31d42130b9aa2145227bdcfd43f2e2ab0d7b75e1493d7c44",
+    "public/brand/logo-trilhas60-transparente.png": "f6bbaf6e78ec5b03560a524761e58ac6a6f2377770c8e690af0a28d6fff836f4"
+  }
+}
