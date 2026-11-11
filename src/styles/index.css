@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./tokens.css";
+@import "./participant.css";
 
 @theme {
   --font-sans: "Segoe UI", system-ui, sans-serif;

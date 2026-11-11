@@ -1,5 +1,18 @@
 # Roadmap — Trilhas 60+
 
+## Entrega vigente — redesign do participante MVP
+
+- [x] Home curta, três resumos e ação principal; Início/Trilhas/Conquistas com percurso completo separado.
+- [x] M01/M02 com entrada única, instruções sob demanda, tarefa e feedback em foco; critérios/ciclo preservados.
+- [x] M03–M10 acessíveis e M11–M20 informativas; currículo, logomarca e instrumentos intactos.
+- [x] Lint, TypeScript, 331 testes e build aprovados; testes com dois workers para o ambiente Windows.
+- [ ] Revisão visual em 360/1280 px, zoom nativo 200%/400%, reflow 320 px, teclado/summary no navegador, contraste renderizado e foco junto à navegação inferior. Bloqueio do controle de navegador documentado.
+- [ ] Tecnologias assistivas, toque em aparelhos físicos e avaliação com participantes.
+- [ ] Triagem separada dos alertas herdados nas dependências.
+
+[Comparação e evidências](AVALIACAO/REDESIGN-PARTICIPANTE-MVP.md). PR em rascunho até a inspeção visual; sem merge, publicação, persistência, instrumentos alterados ou missões novas. Registros seguintes são históricos.
+
+
 ## Entrega vigente — U05
 
 - [x] M09/M10 nas rotas oficiais: configuração fictícia de conta e edição reversível de convite, sem entrada de credenciais, contas ou envio reais.

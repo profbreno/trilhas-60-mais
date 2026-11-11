@@ -1,5 +1,10 @@
 # Sistema de design — Trilhas 60+
 
+### Redesign do participante — 11/11/2026
+
+Estado vigente: home curta e percurso em `/trilhas`; navegação inferior Início/Trilhas/Conquistas por NavLink. Home usa resumos com título sem truncamento e ação principal para M01, sem retomada presumida. M01/M02 reúnem entrada/instruções, eliminam breadcrumbs e deixam retorno hierárquico sob demanda. Critérios, eventos, identidade oficial e tokens preservados; M03–M10 continuam acessíveis. A barra reserva espaço inferior, permite quebra de texto e volta ao fluxo em altura <=480 CSS px. [Comparação, testes e inspeção visual pendente](AVALIACAO/REDESIGN-PARTICIPANTE-MVP.md). Relatos seguintes são históricos e suas capturas não validam este redesign.
+
+
 ### U05 — conta e publicação fictícias
 
 PrivacyDecisionActivity reutiliza UX-01 e tokens, com passos curtos de preparo, proteção/público e revisão. Conta visual textual com estados de estratégia e etapa adicional; editor de campos com Entender/Retirar/Recolocar, estado escrito e prévia derivada. Documento reutiliza SVG sintético local com descrição integral; não há upload. Campo essencial, dado privado e canal público são distinguidos por texto/finalidade. Grupos nativos, foco em comparação/explicação e botão para conferir a prévia; sem arraste, segredo livre ou prazo. M01–M10 disponíveis. [Evidências e pendências](AVALIACAO/VERIFICACAO-U05.md).

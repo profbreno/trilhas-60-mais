@@ -36,7 +36,7 @@ async function save(user: User, d: SearchDefinition) {
 }
 describe('U03 no percurso e nas rotas oficiais', () => {
   it.each([queryMission, communityMission])('abre $id por teclado e retorna à U03 sem progresso fictício', async d => {
-    const user = userEvent.setup(); render(<MemoryRouter><App /></MemoryRouter>)
+    const user = userEvent.setup(); render(<MemoryRouter initialEntries={['/trilhas']}><App /></MemoryRouter>)
     screen.getByRole('link', { name: new RegExp(`${d.id}.*Disponível`) }).focus(); await user.keyboard('{Enter}')
     expect(screen.getByRole('heading', { level: 1, name: d.content.title })).toBeInTheDocument()
     await user.click(screen.getByRole('link', { name: 'Voltar ao percurso da U03' }))

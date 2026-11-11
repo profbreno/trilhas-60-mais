@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest'
 import { App } from './App'
 import { trails } from '../data/curriculum'
 
-const routes = ['/', '/trilhas/primeiros-passos', '/trilhas/primeiros-passos/unidades/operacao-basica-do-celular', '/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela', '/pagina-invalida']
+const routes = ['/', '/trilhas', '/conquistas', '/trilhas/primeiros-passos', '/trilhas/primeiros-passos/unidades/operacao-basica-do-celular', '/trilhas/primeiros-passos/unidades/operacao-basica-do-celular/missoes/encontrar-os-caminhos-da-tela', '/pagina-invalida']
 
 describe('Inspeção automatizada parcial com axe-core em jsdom', () => {
   it.each(routes)('inspeciona semântica e nomes acessíveis em %s', async (route) => {

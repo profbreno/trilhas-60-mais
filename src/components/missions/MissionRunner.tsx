@@ -15,6 +15,8 @@ import { pathUnitAnchor } from '../../domain/curriculumPaths'
 
 export function MissionRunner({ definition, unitPath }: { definition: MissionDefinition; unitPath: string }) {
   const [state, dispatch] = useMissionExecution(definition)
+  const focused = definition.id === 'M01' || definition.id === 'M02'
+  const introduction = focused && (state.phase === 'presentation' || state.phase === 'instructions')
   const heading = useRef<HTMLHeadingElement>(null)
   const screenKey = state.activity.kind === 'navigation' ? `${state.activity.screen}-${state.activity.appId ?? 'home'}` : 'reading'
   const locationKey = `${state.phase}-${state.activity.step}-${screenKey}-${state.attempt}`
@@ -37,12 +39,24 @@ export function MissionRunner({ definition, unitPath }: { definition: MissionDef
 
   return <section className="mission-runner" aria-label="Execução demonstrativa da micromissão">
     {(state.phase === 'activity' || state.phase === 'completed') && <p className="mission-stage">Etapa {stage} de 3</p>}
-    <h2 ref={heading} tabIndex={-1} className="mission-step-heading">{titles[state.phase]}</h2>
-    {state.phase === 'presentation' && <>
+    <h2 ref={heading} tabIndex={-1} className="mission-step-heading">{introduction ? titles.presentation : titles[state.phase]}</h2>
+    {introduction && <>
+      <p>{definition.content.objective}</p>
+      <details className="mission-introduction"><summary>Como participar</summary>
+        <p>{definition.content.introduction}</p>
+        <ol className="mission-instructions">{definition.content.instructions.map(instruction => <li key={instruction}>{instruction}</li>)}</ol>
+      </details>
+      <AccessibleButton onClick={() => {
+        // As duas transições oficiais mantêm o ciclo de vida e os eventos do motor.
+        if (state.phase === 'presentation') dispatch({ type: 'start-mission' })
+        dispatch({ type: 'start-activity' })
+      }}>Começar a prática</AccessibleButton>
+    </>}
+    {!focused && state.phase === 'presentation' && <>
       <p>{definition.content.objective}</p><p>{definition.content.introduction}</p>
       <AccessibleButton onClick={() => dispatch({ type: 'start-mission' })}>Conhecer a atividade</AccessibleButton>
     </>}
-    {state.phase === 'instructions' && <>
+    {!focused && state.phase === 'instructions' && <>
       <ol className="mission-instructions">{definition.content.instructions.map((instruction) => <li key={instruction}>{instruction}</li>)}</ol>
       <AccessibleButton onClick={() => dispatch({ type: 'start-activity' })}>Começar a prática</AccessibleButton>
     </>}
@@ -53,8 +67,10 @@ export function MissionRunner({ definition, unitPath }: { definition: MissionDef
     {(state.phase === 'activity' || state.phase === 'completed') && <>
       {state.phase === 'activity' && <p className="mission-current-instruction">{state.activity.kind === 'reading' && state.activity.step === 'settings' ? 'Escolha texto ampliado ou modo de leitura e aplique.' : step?.instruction}</p>}
       {state.phase === 'completed' && <MissionCompletion recognition={definition.content.recognition} onRepeat={() => dispatch({ type: 'repeat' })} />}
-      {definition.kind === 'navigation' && state.activity.kind === 'navigation' && <NavigationActivity definition={definition} state={state.activity} onAction={(action) => dispatch({ type: 'activity', action })} completed={state.phase === 'completed'} />}
-      {definition.kind === 'reading' && state.activity.kind === 'reading' && <ReadingActivity definition={definition} state={state.activity} onAction={(action) => dispatch({ type: 'activity', action })} />}
+      {definition.kind === 'navigation' && state.activity.kind === 'navigation' && state.phase !== 'completed' && <NavigationActivity definition={definition} state={state.activity} onAction={(action) => dispatch({ type: 'activity', action })} completed={false} />}
+      {definition.kind === 'reading' && state.activity.kind === 'reading' && (state.phase === 'completed'
+        ? <details className="mission-details"><summary>Rever o convite e os ajustes</summary><ReadingActivity definition={definition} state={state.activity} onAction={action => dispatch({ type: 'activity', action })} /></details>
+        : <ReadingActivity definition={definition} state={state.activity} onAction={action => dispatch({ type: 'activity', action })} />)}
       {definition.kind === 'communication' && state.activity.kind === 'communication' && <CommunicationActivity definition={definition} state={state.activity} onAction={action => dispatch({ type: 'activity', action })} />}
       {definition.kind === 'search' && state.activity.kind === 'search' && <SearchActivity definition={definition} state={state.activity} onAction={action => dispatch({ type: 'activity', action })} />}
       {definition.kind === 'information-check' && state.activity.kind === 'information-check' && <InformationCheckActivity definition={definition} state={state.activity} onAction={action => dispatch({ type: 'activity', action })} />}
@@ -63,8 +79,8 @@ export function MissionRunner({ definition, unitPath }: { definition: MissionDef
     <MissionFeedback feedback={state.feedback} revision={state.nextSequence} text={state.feedback ? definition.content.feedback[state.feedback.code] ?? 'Você pode rever o passo atual e consultar a ajuda.' : ''} />
     <HelpButton key={locationKey} onOpen={() => dispatch({ type: 'help' })}><p>{state.phase === 'activity' || state.phase === 'completed' ? step?.help : definition.content.help}</p></HelpButton>
     <div className="simulation-actions">
-      {(state.phase === 'instructions' || state.phase === 'activity') && <AccessibleButton variant="secondary" onClick={() => dispatch({ type: 'previous' })}>Voltar à etapa anterior</AccessibleButton>}
-      <BackNavigation to={`/#${pathUnitAnchor(definition.unitId)}`}>{`Voltar ao percurso da ${definition.unitId}`}</BackNavigation>
+      {((!focused && state.phase === 'instructions') || state.phase === 'activity') && <AccessibleButton variant="secondary" onClick={() => dispatch({ type: 'previous' })}>Voltar à etapa anterior</AccessibleButton>}
+      <BackNavigation to={`/trilhas#${pathUnitAnchor(definition.unitId)}`}>{`Voltar ao percurso da ${definition.unitId}`}</BackNavigation>
     </div>
     <p className="mission-memory-note">Ao sair ou recarregar, esta prática recomeça.</p>
     {(state.status === 'in-progress' || state.status === 'interrupted') && <details key={`options-${locationKey}`} className="mission-options"><summary>Opções da prática</summary>
@@ -83,6 +99,6 @@ export function MissionRunner({ definition, unitPath }: { definition: MissionDef
       <p>O progresso e os eventos de teste ficam apenas na memória desta página. Ao sair ou recarregar, a prática recomeça. Não há envio ou salvamento de respostas.</p>
       <p>Você pode repetir, pedir ajuda e fazer pausas, sem penalização. A retomada funciona somente enquanto esta página estiver aberta.</p>
     </details>
-    <BackNavigation to={unitPath}>Voltar à unidade</BackNavigation>
+    {focused ? <details className="mission-details"><summary>Outros caminhos</summary><BackNavigation to={unitPath}>Voltar à unidade</BackNavigation></details> : <BackNavigation to={unitPath}>Voltar à unidade</BackNavigation>}
   </section>
 }

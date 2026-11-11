@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 import { AppHeader } from './AppHeader'
 import { BrandLogo } from './BrandLogo'
+import { ParticipantNavigation } from './ParticipantNavigation'
 
 export function AppLayout({ children }: { children: ReactNode }) {
   const { pathname, hash } = useLocation()
@@ -29,5 +30,6 @@ export function AppLayout({ children }: { children: ReactNode }) {
       <div><BrandLogo context="footer" size="medium" variant="transparente" /><p>Aprender é um caminho para toda a vida.</p></div>
       <div><p>Protótipo de pesquisa em Educação.</p><p>Demonstração sem cadastro e sem coleta de dados pessoais.</p><Link to="/#sobre">Sobre este projeto <ArrowUpRight size={17} aria-hidden="true" /></Link></div>
     </div></footer>
+    <ParticipantNavigation />
   </>
 }

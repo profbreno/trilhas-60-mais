@@ -79,14 +79,14 @@ export function MissionPage() {
   return <div className={`container detail-page ${definition ? 'mission-page' : ''}`}>
     {!definition && <Breadcrumbs items={[{ label: 'Início', to: '/' }, { label: trail.title, to: currentTrailPath }, { label: unit.title, to: currentUnitPath }, { label: mission.title }]} />}
     <PageHeader eyebrow={`${unit.id} · ${mission.id} · ${mission.mode === 'guided' ? 'A — Guiada' : 'B — Aplicação'}`} title={mission.title} />
-    {!definition && <BackNavigation to={`/#${pathUnitAnchor(unit.id)}`}>Voltar ao percurso</BackNavigation>}
+    {!definition && <BackNavigation to={`/trilhas#${pathUnitAnchor(unit.id)}`}>Voltar ao percurso</BackNavigation>}
     {definition ? <>
       <p className="simulation-notice">Simulação: nada será alterado no seu aparelho. Sem limite de tempo.</p>
       <MissionRunner key={`${definition.id}:${definition.version}`} definition={definition} unitPath={currentUnitPath} />
-      <details className="mission-details"><summary>Localização da missão</summary>
+      {mission.id !== 'M01' && mission.id !== 'M02' && <details className="mission-details"><summary>Localização da missão</summary>
         <p>{mission.mode === 'guided' ? 'A — Aprendizagem guiada' : 'B — Aplicação contextualizada'}</p>
         <Breadcrumbs items={[{ label: 'Início', to: '/' }, { label: trail.title, to: currentTrailPath }, { label: unit.title, to: currentUnitPath }, { label: mission.title }]} />
-      </details>
+      </details>}
     </> : <>
     <section className="content-card mission-objective" aria-labelledby="objetivo"><BookOpen aria-hidden="true" /><h2 id="objetivo">O que vamos aprender</h2><p>{mission.objective}</p></section>
     <section className="content-card mission-objective" aria-labelledby="cenario"><h2 id="cenario">Situação de exemplo</h2><p>{mission.scenario}</p></section>
